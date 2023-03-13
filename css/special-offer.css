@@ -1,0 +1,6 @@
+.special-offer__title {
+    color: var(--main-title-color);
+    font-size: 0.6875rem;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+}

@@ -7,6 +7,10 @@
 }
 
 :root {
+    --subtitle-color: #1e2d4b;
+    --main-title-color: #5995c5;
+    --paragraph-color: rgb(110,116,134);
+    --button-color: #5995c5;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Marcellus', serif;
     font-family: 'Smokum', cursive;
