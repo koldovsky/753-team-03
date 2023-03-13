@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300;400&family=Smokum&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +13,8 @@
     --button-color: #5995c5;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Marcellus', serif;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Smokum', cursive;
 }
 

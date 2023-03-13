@@ -1,6 +1,70 @@
+.special-offer {
+    padding: 24px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 .special-offer__title {
     color: var(--main-title-color);
+    font-family: 'Marcellus SC', serif;
     font-size: 0.6875rem;
     letter-spacing: 2.2px;
     line-height: 17.6px;
+}
+
+.special-offer__sub-title {
+    color: var(--subtitle-color);
+    font-family: 'Marcellus', serif;
+    font-size: 2.875rem;
+    line-height: 1.1;
+    margin-top: 18px;
+}
+
+.special-offer__text {
+    color: var(--paragraph-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.special-offer__main-text {
+    color: var(--paragraph-color);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.special-offer__discount {
+    font-style: italic;
+}
+
+.special-offer__nav-button {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.special-offer__contacts-linc {
+    background-color: var(--button-color);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.special-offer__schedule-linc {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: black;
+    padding: 15px 15px;
+    border: 1px solid black;
+    width: 150px;
 }
