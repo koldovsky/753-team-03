@@ -6,13 +6,18 @@
     box-sizing: border-box;
 }
 
-:root {
+:root { 
+    font-family: 'Marcellus', serif;
+    font-family: 'Open Sans', sans-serif;
     --subtitle-color: #1e2d4b;
     --main-title-color: #5995c5;
     --paragraph-color: rgb(110,116,134);
     --button-color: #5995c5;
-    font-family: 'Marcellus', serif;
-    font-family: 'Open Sans', sans-serif;
+    --color-text-slider: rgb(134, 139, 155);
+    --text-color: rgb(30, 45, 75);
+    --sub-title-color: rgb(114, 118, 130);
+    --slider-name-color: rgb(21, 31, 54);
+    --slider-date: rgb(89, 149, 197)
 }
 
 img {
