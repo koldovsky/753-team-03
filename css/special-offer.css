@@ -81,6 +81,18 @@
 }
 
 @media (min-width: 380px) {
+    .special-offer {
+        margin-left: 10%;
+    }
+
+    .special-offer-paragraph {
+        max-width: 550px;
+    }
+
+    .special-offer__sub-title {
+        font-size: 2.875rem;
+    }
+
     .special-offer__nav-button {
         display: flex;
         flex-direction: row;
@@ -95,5 +107,11 @@
         height: 55px;
         margin-left: 40px;
         text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .special-offer__sub-title {
+        font-size: 4rem;
     }
 }
