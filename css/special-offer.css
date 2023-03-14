@@ -115,3 +115,9 @@
         font-size: 4rem;
     }
 }
+
+@media (min-width: 1300px) {
+    .special-offer {
+        margin:auto;
+    }
+}
