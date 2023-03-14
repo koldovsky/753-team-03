@@ -1,3 +1,7 @@
+.parallax-content {
+    background: url(../img/bacground-special-offer.png);
+}
+
 .special-offer {
     padding: 24px;
     padding-top: 130px;
@@ -56,6 +60,7 @@
     padding: 15px 30px;
     margin-bottom: 15px;
     width: 200px;
+    font-weight: 700;
 }
 
 .special-offer__schedule-linc {
@@ -67,4 +72,5 @@
     padding: 15px 15px;
     border: 1px solid black;
     width: 150px;
+    font-weight: 700;
 }
