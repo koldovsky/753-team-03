@@ -1,4 +1,4 @@
-.teacher-training__background img{
+img{
     display: block;
     height: 192px;
     width: 320px;
@@ -8,8 +8,8 @@
     background-color: var(--training-color);
     box-sizing: border-box;
     line-height: 24px;
-    height: 857.188px;
-    width: 397.333px;
+    height: 774px;
+    width: 290px;
 }
 .teacher-training__title{
     color: rgb(89, 149, 197);
@@ -29,7 +29,6 @@
 }
 .teacher-training__text{
     color: rgb(134,139,155);
-    font-stretch: 100%;
 }
 .teacher-training-button:active{
     background-color: var(--button-color);
