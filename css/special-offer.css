@@ -9,7 +9,7 @@
 .special-offer {
     padding: 140px 0 130px 0;
     width: 80%;
-    max-width: 688 px;
+    max-width: 688px;
 }
 
 .special-offer__title {
@@ -119,6 +119,8 @@
 
 @media (min-width: 1200px) {
     .special-offer {
-        margin: auto;
+        flex-basis: 50%;
+        max-width: 1200px;
     }
+}
 }
