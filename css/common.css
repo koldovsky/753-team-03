@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300;400&family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300;400;500&family=Smokum&display=swap');
 
 * {
     margin: 0;
@@ -9,13 +9,12 @@
 :root {
     --subtitle-color: #1e2d4b;
     --main-title-color: #5995c5;
-    --paragraph-color: rgb(110,116,134);
+    --paragraph-color: rgb(110, 116, 134);
     --button-color: #5995c5;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Marcellus', serif;
-    font-family: 'Marcellus SC', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Smokum', cursive;
+    --classes-level-color: rgb(178 181 187);
+    --classes-background-color: rgb(220, 234, 253);
+    --subtitle-font: 'Marcellus', serif;
+    --main-font: 'Open Sans', sans-serif;
 }
 
 img {
@@ -26,4 +25,18 @@ img {
 .container {
     max-width: 1300px;
     margin: auto;
+}
+
+html {
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
+}
+
+h2 {
+    color: var(--main-title-color);
+    font-family: var(--main-font);
+    font-size: 0.6875rem;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+    font-weight: bold;
 }
