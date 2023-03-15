@@ -1,6 +1,6 @@
 .transparent-button {
     background-color: transparent;
-    border: 1px solid #2f3547;
+    border: 1px solid var(--button-border-color);
     color: var(--sub-title-color);
     font-size: 0.75rem;
     letter-spacing: 0.1px;
