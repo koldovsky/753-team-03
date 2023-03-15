@@ -1,0 +1,42 @@
+.teacher-training__background img{
+    display: block;
+    height: 192px;
+    width: 320px;
+}
+.teacher-training__article{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--training-color);
+    box-sizing: border-box;
+    line-height: 24px;
+    height: 857.188px;
+    width: 397.333px;
+}
+.teacher-training__title{
+    color: rgb(89, 149, 197);
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 11px;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+}
+.teacher-training__subtitle{
+    color: rgb(30, 45, 75);
+    font-size: 30px;
+    font-weight: 400;
+}
+.teacher-training__text{
+    color: rgba(47,53,71,0.71);
+    font-weight: 500;
+}
+.teacher-training__text{
+    color: rgb(134,139,155);
+    font-stretch: 100%;
+}
+.teacher-training-button:active{
+    background-color: var(--button-color);
+    text-decoration: none;
+    font-weight: 400;
+    height: 52,39px;
+    width: 149px;
+    text-align: center;
+    border: 1px solid blue;
+}
