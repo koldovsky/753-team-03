@@ -7,8 +7,6 @@
 }
 
 :root { 
-    font-family: 'Marcellus', serif;
-    font-family: 'Open Sans', sans-serif;
     --subtitle-color: #1e2d4b;
     --main-title-color: #5995c5;
     --paragraph-color: rgb(110, 116, 134);
