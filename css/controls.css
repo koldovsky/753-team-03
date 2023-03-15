@@ -4,7 +4,6 @@
     color: var(--sub-title-color);
     font-size: 0.75rem;
     letter-spacing: 0.1px;
-    position: absolute;
     padding: 19px 21px;
     text-decoration: none;
     text-align: center;
@@ -16,7 +15,6 @@
     color: var(--light-color);
     font-size: 0.75rem;
     letter-spacing: 0.1px;
-    position: absolute;
     padding: 19px 21px;
     text-decoration: none;
     text-align: center;
