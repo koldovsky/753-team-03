@@ -1,0 +1,24 @@
+.transparent-button {
+    background-color: transparent;
+    border: 1px solid #2f3547;
+    color: var(--sub-title-color);
+    font-size: 0.75rem;
+    letter-spacing: 0.1px;
+    position: absolute;
+    padding: 19px 21px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.button-with-background {
+    background-color: var(--button-color);
+    color: var(--light-color);
+    font-size: 0.75rem;
+    letter-spacing: 0.1px;
+    position: absolute;
+    padding: 19px 21px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
