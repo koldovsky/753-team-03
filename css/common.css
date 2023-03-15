@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300;400;500&family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Marcellus+SC&family=Open+Sans:wght@300;400;500;600&family=Smokum&display=swap');
 
 * {
     margin: 0;
@@ -26,11 +26,11 @@
     --join-title-color: rgb(203, 208, 176);
     --pricing-title-color: rgb(227, 195, 156);
     --button-color: rgb(89, 149, 197);
-    --button-two-color: rgba(0, 0, 0, 0);
     --classes-background-color: rgb(220, 234, 253);
     --pricing-background-color: rgb(252, 238, 221);
     --slider-date-color: rgb(89, 149, 197);
     --light-color: rgb(255, 255, 255);
+    --footer-background-color:rgb(47,53,71);
 }
 
 img {
@@ -39,6 +39,7 @@ img {
 }
 
 .container {
+    min-width: 320px;
     max-width: 1200px;
     margin: auto;
 }
@@ -55,4 +56,13 @@ h2 {
     letter-spacing: 2.2px;
     line-height: 17.6px;
     font-weight: bold;
+}
+
+.subtitle {
+    font-family: var(--subtitle-font);
+    color: var(--subtitle-color);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 30px;
+    font-weight: 400;
 }

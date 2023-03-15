@@ -1,11 +1,11 @@
 .classes {
     text-align: center;
-   
+
 }
 
 .classes__title {
     /* TODO: padding */
-    margin: 70px 70px 20px 70px; 
+    margin: 70px 70px 20px 70px;
 }
 
 .classes__text-select {
@@ -14,43 +14,66 @@
     font-weight: 500;
 }
 
-.classes h3 {
-    font-family: var(--subtitle-font);
-    color: var(--subtitle-color);
-    line-height: 39px;
-    letter-spacing: 0.6px;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.classes h3.slider__units-text {
+.slider__units-subtitle {
     font-size: 22px;
 }
 
-.slider__units-title {
-    font: 700 11px  'Open Sans', sans-serif;
+.slider__units-text {
+    font: 600 11px 'Open Sans', sans-serif;
     padding-top: 15px;
-    letter-spacing: 2.2px;
+    letter-spacing: 3px;
     line-height: 17.6px;
     color: var(--classes-level-color);
 }
-.classes__join-us{
-    margin:10px 25px 90px 25px;
+
+.classes__join-us {
+    margin: 10px 25px 90px 25px;
     padding: 50px;
     background-color: var(--classes-background-color);
 }
-.classes__join-us img{
+
+.classes__join-us img {
     display: block;
     height: 50px;
 }
-.classes__join-us-text{
+
+.classes__join-us-text {
     line-height: 25.2px;
     font-size: 18px;
     font-weight: 500;
 }
-.classes__subtitle{
+
+.classes__subtitle {
     margin: 20px;
 }
-.classes__join-us-subtitle{
-    margin:20px 0px 20px 0px;
+
+.classes__join-us-subtitle {
+    margin: 20px 0px 20px 0px;
+}
+
+.parallax-benefits {
+    display: grid;
+    padding: 115px 25px 200px 25px;
+    background-image: url(../img/classes-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--light-color);
+}
+.parallax-benefits__main-text {
+    border: 2px solid white;
+    padding: 30px 25px 30px 25px;
+    
+}
+.parallax-benefits__subtitle{
+    color: var(--light-color);
+    font-size: 22px; 
+}
+@media (min-width:768px){
+    .parallax-benefits {
+        grid-template-columns: 7fr 5fr;
+    }
+    .parallax-benefits__main-text {
+        grid-column: 2;
+    }
 }
