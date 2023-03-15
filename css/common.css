@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 
-:root { 
-    font-family: 'Marcellus', serif;
+:root {
     font-family: 'Open Sans', sans-serif;
     --subtitle-color: #1e2d4b;
     --main-title-color: #5995c5;
@@ -17,12 +16,21 @@
     --classes-background-color: rgb(220, 234, 253);
     --subtitle-font: 'Marcellus', serif;
     --main-font: 'Open Sans', sans-serif;
-    --color-text-slider: rgb(134, 139, 155);
-    --text-color: rgb(30, 45, 75);
-    --sub-title-color: rgb(114, 118, 130);
-    --slider-name-color: rgb(21, 31, 54);
-    --slider-date: rgb(89, 149, 197);
     --pricing-color: rgb(252, 238, 221);
+
+    --general-title-color: rgb(89, 149, 197);
+    --sub-title-color: rgb(30, 45, 75);
+    --general-text-color: rgb(134, 139, 155);
+    --paragraph-color: rgb(114, 118, 130);
+    --third-title-color: rgb(21, 31, 54);
+    --join-title-color: rgb(203, 208, 176);
+    --pricing-title-color: rgb(227, 195, 156);
+    --button-color: rgb(89, 149, 197);
+    --button-two-color: rgba(0, 0, 0, 0);
+    --classes-background-color: rgb(220, 234, 253);
+    --pricing-background-color: rgb(252, 238, 221);
+    --slider-date-color: rgb(89, 149, 197);
+    --light-color: rgb(255, 255, 255);
 }
 
 img {
