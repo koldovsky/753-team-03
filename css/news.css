@@ -1,0 +1,125 @@
+.news {
+    margin-bottom: 130px;
+}
+
+.news__title {
+    text-align: center;
+    padding-top: 94px;
+}
+
+.news__subtitle {
+    font-family: var(--subtitle-font);
+    color: var(--subtitle-color);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.news__text-read {
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+.news__container {
+    margin-top: 50px;
+}
+
+.news__content-read-more {
+    display: flex;
+    justify-content: end;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+    color: var(--footer-background-color);
+    padding-top: 20px;
+
+}
+
+.news__yoga-img-сircle {
+    border-radius: 50px;
+}
+
+.yoga-news-img {
+    max-width: 700px;
+}
+
+.news__picture {
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 60px;
+}
+
+.news__date {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+    color: var(--slider-date-color);
+    padding-bottom: 20px;
+}
+
+.news__content-text {
+    font-family: var(--subtitle-font);
+    color: var(--footer-background-color);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.news__content {
+    padding: 0 20px;
+}
+
+.news__content-date {
+    max-width: 700px;
+}
+
+.news__content-yoga {
+    display: flex;
+    padding-top: 40px;
+}
+
+.img-yoga-for-spine {
+    max-width: 70px;
+}
+
+.news__content-yoga-text {
+    padding-left: 10px;
+    max-width: 630px;
+
+}
+
+.news__content-padmasana {
+    display: flex;
+    padding-top: 40px;
+}
+
+.img-padmasana {
+    max-width: 70px;
+}
+
+.content-padmasana {
+    max-width: 630px;
+    padding-left: 10px;
+}
+
+
+
+@media (min-width:768px) {
+    .news__container {
+        display: flex;
+    }
+
+    .yoga-news-img {
+        display: block;
+        width: 100%;
+    }
+}
