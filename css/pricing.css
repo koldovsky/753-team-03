@@ -35,7 +35,7 @@
     padding-bottom: 20px;
     font-size: 18px;
 }
-@media (min-width: 770) {
+@media (min-width: 770px) {
     .pricing_text{
     max-width: 100%;
     }
