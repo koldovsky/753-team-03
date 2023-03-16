@@ -1,24 +1,16 @@
-.teacher-training img{
-    display: block;
-    width: 100%;
-}
-.teacher-training__article{
-    background-color: var(--training-color);
-    box-sizing: border-box;
-    line-height: 24px;
-    width: 100%;
+.teacher-training-article{
+    text-align: left;
 }
 .teacher-training__title{
-    font-size: 11px;
-    letter-spacing: 2.2px;
-    line-height: 17.6px;
+    margin: 70px 70px 20px 30px;
 }
-.teacher-training__subtitle{
-    font-size: 30px;
-    font-weight: 400;
+.classes__teacher-training__subtitle {
+    margin: 20px 25px 25px 30px;
 }
 .teacher-training__text{
+    font-size: 16px;
     font-weight: 500;
+    margin: 20px 25px 25px 30px;
 }
 .teacher-training-button:active{
     background-color: var(--button-color);
