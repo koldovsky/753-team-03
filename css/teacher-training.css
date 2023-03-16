@@ -4,7 +4,7 @@
     
 }
 .teacher-training__title{
-    padding: 70px 70px 20px 30px;
+    padding: 70px 70px 20px 0px;
 }
 .classes__teacher-training__subtitle {
     margin-top: 20px;
@@ -14,11 +14,13 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
-}
+}    
+   
 .teacher-training__main-text{
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    line-height: 1;
 }
 .teacher-training-button:active{
     background-color: var(--button-color);
