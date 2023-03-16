@@ -1,16 +1,24 @@
 .teacher-training-article{
-    text-align: left;
+    max-width: 648px;
+    width: 80%;
+    
 }
 .teacher-training__title{
-    margin: 70px 70px 20px 30px;
+    padding: 70px 70px 20px 30px;
 }
 .classes__teacher-training__subtitle {
-    margin: 20px 25px 25px 30px;
+    margin-top: 20px;
+    margin-left: 60px;
 }
 .teacher-training__text{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 20px 25px 25px 30px;
+    margin-top: 20px;
+}
+.teacher-training__main-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
 }
 .teacher-training-button:active{
     background-color: var(--button-color);
