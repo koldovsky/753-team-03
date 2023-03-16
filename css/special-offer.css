@@ -7,7 +7,7 @@
 }
 
 .special-offer {
-    padding: 140px 0 130px 0;
+    padding: 140px 20px 130px 20px;
     width: 80%;
     max-width: 688px;
 }
@@ -21,11 +21,8 @@
 }
 
 .special-offer__sub-title {
-    color: var(--subtitle-color);
-    font-family: var(--subtitle-font);
-    font-size: 2.875rem;
-    line-height: 1.1;
-    margin-top: 18px;
+    margin-top: 20px;
+    line-height: 1.2;
 }
 
 .special-offer__text {
@@ -49,12 +46,25 @@
 }
 
 .special-offer__nav-button {
-    display: flex;
+    margin-top: 30px;
+}
+
+.special-offer__contacts-linc {
+    display: block;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 52px;
+}
+
+.special-offer__schedule-linc {
+    display: block;
+    width: 132px;
+    height: 52px;
 }
 
 @media (min-width: 380px) {
     .special-offer {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -64,6 +74,20 @@
 
 .special-offer__sub-title {
     font-size: 2.875rem;
+}
+
+.special-offer__nav-button {
+ 
+}
+
+.special-offer__contacts-linc {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.special-offer__schedule-linc {
+    display: inline-block;
+ 
 }
 
 @media (min-width: 768px) {
