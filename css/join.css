@@ -1,0 +1,12 @@
+.join{
+    background-color: var(--join-background-color);
+   
+}
+.join__title{
+    text-transform: uppercase;
+    color: var(--join-title-color);
+}
+.join__basic-things-item{
+    
+    list-style-image: url(../img/join-lotus-flower.svg);
+}

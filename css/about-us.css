@@ -1,0 +1,23 @@
+.about-us__yoga-types-title{
+    color: var(--button-border-color);
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+.about-us__lists-line{
+    width: 59px;
+    height: 3px;
+    background-color: var(--main-title-color);
+}
+.about-us__conditions-title{
+    color: var(--button-border-color);
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+.about-us__list-item{
+    color: var( --classes-background-color);
+}
+.about-us__list-item-text{
+    color: var( --general-text-color);
+}
