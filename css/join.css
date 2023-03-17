@@ -7,6 +7,9 @@
     color: var(--join-title-color);
 }
 .join__basic-things-item{
-    
     list-style-image: url(../img/join-lotus-flower.svg);
+}
+.join__slideshow-photo{
+    width: 394px;
+    height: auto;
 }

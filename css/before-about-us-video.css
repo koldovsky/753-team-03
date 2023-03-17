@@ -1,0 +1,8 @@
+.before-about-us__video{
+    background: url(../img/video-photo-background.jpeg);
+    width: 100%;
+    height: 540px;
+}
+.button-play{
+    z-index: 50;
+}
