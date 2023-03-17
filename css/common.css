@@ -9,7 +9,7 @@
 :root {
     --subtitle-font: 'Marcellus', serif;
     --main-font: 'Open Sans', sans-serif;
-    --paragraph-color: rgb(134,139,155);
+    --paragraph-color: rgb(134, 139, 155);
     --classes-level-color: rgb(178 181 187);
     --classes-background-color: rgb(220, 234, 253);
     --pricing-color: rgb(252, 238, 221);
@@ -18,7 +18,7 @@
     --general-text-color: rgb(134, 139, 155);
     --third-title-color: rgb(21, 31, 54);
     --join-title-color: rgb(203, 208, 176);
-    --join-background-color: rgb(243,245,233);
+    --join-background-color: rgb(243, 245, 233);
     --pricing-title-color: rgb(227, 195, 156);
     --button-color: rgb(89, 149, 197);
     --button-two-color: rgba(0, 0, 0, 0);
@@ -27,14 +27,16 @@
     --pricing-background-color: rgb(252, 238, 221);
     --slider-date-color: rgb(89, 149, 197);
     --light-color: rgb(255, 255, 255);
-    --footer-background-color:rgb(47,53,71);
-    --light-text-color: rgba(255,255,255,0.6);
-    --dark-background-color:rgb(41, 46, 63);
+    --footer-background-color: rgb(47, 53, 71);
+    --light-text-color: rgba(255, 255, 255, 0.6);
+    --dark-background-color: rgb(41, 46, 63);
     --dark-accent-color: rgb(0, 0, 0);
-    --borderline-blue-color:  rgb(220, 234, 253);
+    --borderline-blue-color: rgb(220, 234, 253);
     --borderline-yellow-color: rgb(252, 238, 221);
     --borderline-green-color: rgb(220, 234, 223);
     --header-links-color: rgba(47, 53, 71, 0.7);
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
 }
 
 img {
@@ -46,11 +48,6 @@ img {
     min-width: 320px;
     max-width: 1200px;
     margin: auto;
-}
-
-html {
-    font-family: var(--main-font);
-    color: var(--paragraph-color);
 }
 
 h2 {
