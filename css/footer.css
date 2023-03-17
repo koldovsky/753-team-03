@@ -28,11 +28,11 @@
 }
 
 .footer__nav-page {
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.7rem;
 }
 
 .footer__nav-pages {
-    padding-top: 1.8rem;
+    padding-top: 1.7rem;
 }
 
 .footer__nav-pages ul {
@@ -56,7 +56,21 @@
 }
 .footer__nav-resources{
     background-color:var(--dark-background-color) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+.footer__nav-resources ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+path.logo_2gS {
+    fill: var(--general-title-color);
+}
+
+
 @media (min-width:991px) {
     .footer__nav-pages ul {
         flex-direction: row;

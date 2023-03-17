@@ -10,7 +10,7 @@
 .about-us__lists-line{
     width: 59px;
     height: 3px;
-    background-color: var(--main-title-color);
+    background-color: var(--general-title-color);
 }
 .about-us__conditions-title{
     color: var(--button-border-color);
