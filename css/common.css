@@ -19,7 +19,7 @@
     --pricing-color: rgb(252, 238, 221);
 
     --general-title-color: rgb(89, 149, 197);
-    --sub-title-color: rgb(30, 45, 75);
+    --subtitle-color: rgb(30, 45, 75);
     --general-text-color: rgb(134, 139, 155);
     --paragraph-color: rgb(114, 118, 130);
     --third-title-color: rgb(21, 31, 54);
@@ -34,6 +34,13 @@
     --slider-date-color: rgb(89, 149, 197);
     --light-color: rgb(255, 255, 255);
     --footer-background-color:rgb(47,53,71);
+    --light-text-color: rgba(255,255,255,0.6);
+    --dark-background-color:rgb(41, 46, 63);
+    --dark-accent-color: rgb(0, 0, 0);
+    --borderline-blue-color:  rgb(220, 234, 253);
+    --borderline-yellow-color: rgb(252, 238, 221);
+    --borderline-green-color: rgb(220, 234, 223);
+    --header-links-color: rgba(47, 53, 71, 0.7);
 }
 
 img {
@@ -66,6 +73,6 @@ h2 {
     color: var(--subtitle-color);
     line-height: 39px;
     letter-spacing: 0.6px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
 }

@@ -1,6 +1,70 @@
-.footer{
+.footer {
     background-color: var(--footer-background-color);
+    display: flex;
+    flex-direction: column;
 }
-.footer__logo-lotus{
+
+.footer__logo-lotus {
     width: 69px;
+}
+
+.footer__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11rem;
+}
+
+.footer__title {
+    color: var(--light-color);
+    font-size: 1.75rem;
+}
+
+.footer__nav-pages a {
+    text-decoration: none;
+    color: var(--general-title-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer__nav-page {
+    padding-bottom: 1.8rem;
+}
+
+.footer__nav-pages {
+    padding-top: 1.8rem;
+}
+
+.footer__nav-pages ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__main-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: center;
+    color: var(--light-text-color);
+    padding-bottom: 7.8rem;
+}
+.footer__social-image{
+    width: 1.56rem;
+}
+.footer__nav-resources{
+    background-color:var(--dark-background-color) ;
+}
+@media (min-width:991px) {
+    .footer__nav-pages ul {
+        flex-direction: row;
+        justify-content: center;
+        padding-right: 1.8rem;
+    }
+
+    .footer__nav-page {
+        padding-right: 2rem;
+    }
 }

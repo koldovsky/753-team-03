@@ -2,8 +2,13 @@
     background-color: var(--pricing-color);
     text-align: center;
 }
+@media (min-width: 1420px){
+    .pricing{
+        height: 100vh;
+    }
+}
 .pricing_head{
-    color: rgb(227,195,156);
+    color: var(--pricing-title-color);
     padding-top: 50px;
     padding-bottom: 20px;
     font-size: 11px;
@@ -11,9 +16,10 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 .pricing_title{
-    color: rgb(35, 45, 75);
+    color: var(--sub-title-color);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 30px;
@@ -21,12 +27,18 @@
     text-align: center;
     font-weight: 400;
     font-family: 'Marcellus';
+    
 }
 .pricing_text{
-    color: rgb(114, 118, 130);
+    color: var(--paragraph-color);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
+}
+@media (min-width: 770px) {
+    .pricing_text{
+    max-width: 100%;
+    }
 }
 
 .membershi_img{
@@ -68,48 +80,82 @@
     }
 }
 .membershi_detail{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
-    background-color: white;
-    max-width: 250px;
-    height: 380px;
+    margin: 25px;
+    padding: 20px;
+    background-color: var(--light-color);
+    max-width: 340px;
+    height: 410px;
     text-align: center;
-    
-   
 }
 .class_detail{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    max-width: 250px;
-    height: 380px;
-    text-align: center; 
-    
+    margin: 25px;
+    padding: 20px;
+    background-color: var(--light-color);
+    max-width: 340px;
+    height: 410px;
+    text-align: center;
 }
 .online_detail{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    max-width: 250px;
-    height: 380px;
+    margin: 25px;
+    padding: 20px;
+    background-color: var(--light-color);
+    max-width: 340px;
+    height: 410px;
     text-align: center;
-    
 }
-
+@media (min-width: 747px) {
+    .membershi_detail, .class_detail, .online_detail{
+        min-width: 420px;
+    }
+}
+.membershi_img, .class_img, .online_img{
+    height: 45px;
+}
 .pricing_membership, .pricing_class, .pricing_online{
-
+    font-size: 22px;
+    font-weight: 400;
+    
+    font-family: var(--subtitle-font);
+    color: var(--subtitle-color);
 }
 .membership_text, .class_text, .online_text{
-    
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.membershi_price, .class_price, .online_price{
-
+.membership_price, .class_price, .online_price{
+    height: 30px;
+    font-weight: 400;
+}
+.membership_marker{
+    color: var(--pricing-title-color);
+    font-weight: bold;
+}
+.class_marker{
+    color: var(--button-color);
+    font-weight: bold;
+}
+.online_marker{
+    color: var(--join-title-color);
+    font-weight: bold;
+}
+.membership_buttom, .class_buttom, .online_buttom{
+    
+    display: flex; 
+    justify-content: center;
+}
+.membership_buttom_link, .class_buttomlink, .online_buttomlink{
+    background-color: transparent;
+    border: 1px solid var(--button-border-color);
+    color: var(--sub-title-color);
+    font-size: 0.75rem;
+    letter-spacing: 0.1px;
+    padding: 19px 21px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    display: block;
+    width: 60%;
 }
