@@ -1,22 +1,30 @@
 .transparent-button {
-    background-color: transparent;
-    border: 1px solid var(--button-border-color);
-    color: var(--sub-title-color);
-    font-size: 0.75rem;
-    letter-spacing: 0.1px;
-    padding: 19px 21px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
+  background-color: transparent;
+  border: 1px solid var(--button-border-color);
+  color: var(--sub-title-color);
+  font-size: 0.75rem;
+  letter-spacing: 0.1px;
+  padding: 19px 21px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
 }
 
 .button-with-background {
-    background-color: var(--button-color);
-    color: var(--light-color);
-    font-size: 0.75rem;
-    letter-spacing: 0.1px;
-    padding: 19px 21px;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
+  background-color: var(--button-color);
+  color: var(--light-color);
+  font-size: 0.75rem;
+  letter-spacing: 0.1px;
+  padding: 19px 21px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 770px) {
+  .transparent-button:hover,
+  .button-with-background:hover {
+    background-color: var(--dark-accent-color);
+    transition: 0.5s;
+  }
 }
