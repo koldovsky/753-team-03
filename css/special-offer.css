@@ -18,7 +18,6 @@
 }
 
 .countdown-container {
-  all: initial;
   font-family: var(--subtitle-font);
   color: var(--third-title-color);
   line-height: 39px;
@@ -36,7 +35,7 @@
 #countdown {
   color: var(--button-color);
   font-weight: bold;
-  padding-left: 10%;
+  padding-left: 8%;
   margin-top: 20px;
 }
 
