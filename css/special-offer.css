@@ -29,7 +29,7 @@
 }
 
 .countdown-text {
-  padding: 20px 40px 20px 20px;
+  padding: 20px 40px 20px 0;
 }
 
 #countdown {
@@ -37,6 +37,15 @@
   font-weight: bold;
   padding-left: 8%;
   margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .countdown-text {
+    padding: 20px 40px 0 0;
+  }
+  #countdown {
+    padding: 0 40px 20px 0;
+  }
 }
 
 .special-offer__text {
