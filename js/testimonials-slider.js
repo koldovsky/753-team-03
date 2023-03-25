@@ -7,7 +7,7 @@ document.querySelector('.next-button').addEventListener('click', function () {
     }
     sliderBody.style.left = changePosition + '%';
 })
-document.querySelector('.prew-button').addEventListener('click', function () {
+document.querySelector('.prev-button').addEventListener('click', function () {
     changePosition += 100;
     if (changePosition > 0) {
         changePosition = -200;
