@@ -98,7 +98,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 30px 1fr 30px;
-    padding: 50px;
+    padding: 0 50px;
 }
 
 .slider__item {
@@ -116,9 +116,9 @@
 
 .prew-button,
 .next-button {
-    width: 30px;
-    height: 30px;
-    margin: auto;
+    width: 15px;
+    height: 25px;
+    margin:  auto;
 }
 
 @media(min-width:370px) {
