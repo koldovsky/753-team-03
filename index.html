@@ -179,13 +179,13 @@
           <a href="#" class="transparent-button">sign up</a>
         </div>
       </div>
-    
+
       <div class="join__slideshow">
         <div class="join__slideshow-photo"><img src="img/join-slideshow-photo1.png" alt="Yoga" /></div>
         <div class="join__slideshow-photo"><img src="img/join-slideshow-photo2.png" alt="Yoga" /></div>
         <div class="join__slideshow-photo"><img src="img/join-slideshow-photo3.png" alt="Yoga" /></div>
       </div>
-  </section>
+    </section>
     <!-- /Marta Mykhailyna-->
 
     <!-- Vladyslava Korogodova -->
@@ -345,6 +345,10 @@
         <section class="special-offer container">
           <h2 class="special-offer__title">SPECIAL OFFER</h2>
           <p class="special-offer__sub-title subtitle">Yoga is For Everyone!</p>
+          <div class="countdown-container">
+            <p class="countdown-text">Time left until the offer ends: </p>
+            <div id="countdown"></div>
+          </div>
           <div class="special-offer-paragraph">
             <p class="special-offer__text">
               Get your -10% discount on all classes.
@@ -387,42 +391,50 @@
             We appreciate your warm words and thoughts.
           </p>
         </div>
-        <div class="testimonials__slider slider">
-          <div class="slider__item">
-            <img src="img/lucile.png" alt="Lucile Peterson" class="slider__image" />
-            <h3 class="slider__name">Lucile Peterson</h3>
-            <p class="slider__text">
-              “Thanks to yoga classes at the Atta Yoga studio, I have become
-              much calmer and more organized in my thoughts and actions. Yoga is
-              a really good option for those who don't like the usual active gym
-              workouts. I love my yoga classes at Atta!”
-            </p>
-            <p class="slider__date">DECEMBER 15, 2021</p>
+        <div class="testimonials__slider-container">
+          <img class="prev-button" src="img/prev-button.webp" alt="Prev button">
+          <div class="testimonials__slider slider">
+
+            <div class="slider__body">
+              <div class="slider__item">
+                <img src="img/lucile.png" alt="Lucile Peterson" class="slider__image" />
+                <h3 class="slider__name">Lucile Peterson</h3>
+                <p class="slider__text">
+                  “Thanks to yoga classes at the Atta Yoga studio, I have become
+                  much calmer and more organized in my thoughts and actions. Yoga is
+                  a really good option for those who don't like the usual active gym
+                  workouts. I love my yoga classes at Atta!”
+                </p>
+                <p class="slider__date">DECEMBER 15, 2021</p>
+              </div>
+              <div class="slider__item">
+                <img src="img/gillian.png" alt="Gillian Adler" class="slider__image" />
+                <h3 class="slider__name">Gillian Adler</h3>
+                <p class="slider__text">
+                  “I have been practicing at Atta Yoga Studio for two years now.
+                  During this time, I have found many friends and like-minded people
+                  here. I like that this is not just a yoga studio but a whole
+                  community that promotes a healthy approach to mind, body, and life
+                  overall.”
+                </p>
+                <p class="slider__date">MARCH 02, 2022</p>
+              </div>
+              <div class="slider__item">
+                <img src="img/ashley.png" alt="Ashley Parson" class="slider__image" />
+                <h3 class="slider__name">Ashley Parson</h3>
+                <p class="slider__text">
+                  “Yoga is my path to a healthy and flexible body. I tried different
+                  sports, but they quickly tired me. Yoga helps me to be in good
+                  shape without exhausting physical exertion. In addition, I like
+                  the studio itself where classes are held and the coaches — very
+                  pleasant and polite people.”
+                </p>
+                <p class="slider__date">NOVEMBER 12, 2022</p>
+              </div>
+            </div>
+
           </div>
-          <div class="slider__item">
-            <img src="img/gillian.png" alt="Gillian Adler" class="slider__image" />
-            <h3 class="slider__name">Gillian Adler</h3>
-            <p class="slider__text">
-              “I have been practicing at Atta Yoga Studio for two years now.
-              During this time, I have found many friends and like-minded people
-              here. I like that this is not just a yoga studio but a whole
-              community that promotes a healthy approach to mind, body, and life
-              overall.”
-            </p>
-            <p class="slider__date">MARCH 02, 2022</p>
-          </div>
-          <div class="slider__item">
-            <img src="img/ashley.png" alt="Ashley Parson" class="slider__image" />
-            <h3 class="slider__name">Ashley Parson</h3>
-            <p class="slider__text">
-              “Yoga is my path to a healthy and flexible body. I tried different
-              sports, but they quickly tired me. Yoga helps me to be in good
-              shape without exhausting physical exertion. In addition, I like
-              the studio itself where classes are held and the coaches — very
-              pleasant and polite people.”
-            </p>
-            <p class="slider__date">NOVEMBER 12, 2022</p>
-          </div>
+          <img class="next-button" src="img/next-button.webp" alt="Next button">
         </div>
       </div>
     </div>
@@ -517,6 +529,7 @@
       <div class="footer__commercial">© Created by | All rights Reserved</div>
     </nav>
   </footer>
+  <script src="js/testimonials-slider.js"></script>
   <script src="js/special-offer.js"></script>
 </body>
 

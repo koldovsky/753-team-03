@@ -17,6 +17,37 @@
   line-height: 1.2;
 }
 
+.countdown-container {
+  font-family: var(--subtitle-font);
+  color: var(--third-title-color);
+  line-height: 39px;
+  letter-spacing: 0.3px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  background-color: transparent;
+  border: 0.5px
+}
+
+.countdown-text {
+  padding: 20px 40px 20px 0;
+}
+
+#countdown {
+  color: var(--button-color);
+  font-weight: bold;
+  padding-left: 8%;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .countdown-text {
+    padding: 20px 40px 0 0;
+  }
+  #countdown {
+    padding: 0 40px 20px 0;
+  }
+}
+
 .special-offer__text {
   line-height: 1.5;
   font-weight: 500;
