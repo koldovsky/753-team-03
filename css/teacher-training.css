@@ -1,28 +1,23 @@
 .teacher-training__container {
     min-width: 375px;
     min-height: 225px;
-    margin-left: 0;
 }
-
 .image_teacher_training {
     align-items: left;
     width: 50%;
     float: left;
 }
-
 @media (min-width: 375px) {
     .teacher-training__container .image_teacher_training {
          display: flex;
          align-items: flex-start;
     }
 }
-
 .teacher-training__article {
     margin: 30px 20px 20px 30px;
     background-color: transparent;
     line-height: 25px;
 }
-
 .teacher-training-button {
     background-color: var(--button-color);
     text-decoration: none;
