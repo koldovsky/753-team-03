@@ -1,32 +1,40 @@
-.teacher-training-article{
-    max-width: 648px;
-    width: 80%;
-    
+.teacher-training__container {
+    min-width: 375px;
+    min-height: 225px;
+    margin-left: 0;
 }
-.teacher-training__title{
-    padding: 70px 70px 20px 0px;
+
+.image_teacher_training {
+    align-items: left;
+    width: 50%;
+    float: left;
 }
-.classes__teacher-training__subtitle {
-    margin-top: 20px;
-    margin-left: 60px;
+
+@media (min-width: 375px) {
+    .teacher-training__container .image_teacher_training {
+         display: flex;
+         align-items: flex-start;
+    }
 }
-.teacher-training__text{
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 20px;
-}    
-   
-.teacher-training__main-text{
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 20px;
-    line-height: 1;
+
+.teacher-training__article {
+    margin: 30px 20px 20px 30px;
+    background-color: transparent;
+    line-height: 25px;
 }
-.teacher-training-button:active{
+
+.teacher-training-button {
     background-color: var(--button-color);
     text-decoration: none;
-    font-weight: 400;
-    height: 52.39px;
-    width: 149px;
+    display: inline-block;
+    position: relative;
     text-align: center;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 52px;
+    color: var(--light-color);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    padding: 15px 32px;
 }
