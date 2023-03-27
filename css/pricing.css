@@ -27,7 +27,7 @@
     font-weight: 400;
 }
 .pricing_text{
-    color: var(--subtitle-color);
+    color: var(--paragraph-color);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
