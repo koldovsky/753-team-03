@@ -19,18 +19,15 @@
     letter-spacing: 3px;
 }
 .pricing_title{
-    color: var(--sub-title-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    margin: 0;
-    text-align: center;
+    font-family: var(--subtitle-font);
+    color: var(--subtitle-color);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 1.875rem;
     font-weight: 400;
-    font-family: 'Marcellus';
-    
 }
 .pricing_text{
-    color: var(--paragraph-color);
+    color: var(--subtitle-color);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
