@@ -39,7 +39,6 @@
 
 .contact-info {
     padding: 60px 15px 60px 15px;
-
 }
 
 .social__title {
@@ -52,4 +51,95 @@
     font-size: 1.125rem;
     font-weight: 500;
 }
+
+.social__text {
+    letter-spacing: 1.2px;
+    line-height: 1.2;
+}
+
+.link-schedule {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: var(--button-border-color);
+    font-weight: bold;
+}
+
+.icons {
+    display: flex ;
+    text-align: left;
+    width: 120px;
+    filter: invert(52%) sepia(100%) saturate(2906%) hue-rotate(190deg) brightness(97%) contrast(87%);
+    padding: 40px 0 40px 0;
+}
+
+
+.online {
+    margin-bottom: 20px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-left: 1px solid  rgb(178 181 187);
+}
+
+.online__img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.contacts {
+    margin-bottom: 20px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-left: 1px solid  rgb(178 181 187);
+}
+
+.online__title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.online__text {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    letter-spacing: 0.7px;
+}
+
+.online__link {
+    color: var(--general-title-color);
+    font-family: var(--main-font);
+    font-size: 0.6875rem;
+    letter-spacing: 2.2px;
+    line-height: 17.6px;
+    font-weight: 700;
+}
+
+.contacts__title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.divider-element {
+    height: 3px;
+    width: 20%;
+    background-color: #5995c5;
+}
+
+.contacts__adres {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.contacts__time {
+    margin-bottom: 25px;
+}
+.contacts__phone a {
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
+  }
+
+  .contacts__mail a {
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
+  }
 
