@@ -146,4 +146,51 @@
 #map {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    max-width: 1200px;
+}
+
+.faq {
+    padding: 0 15px 60px 15px;
+}
+
+.faq__basic-title {
+    margin: 20px 0 20px 0;
+}
+
+.faq_subtitle {
+    padding: 20px 0 20px 0;
+    line-height: 1.4;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.faq__text {
+    line-height: 1.4;
+}
+
+.question-container {
+    margin-left: 50px;
+}
+
+.question {
+    width: 85%;
+    text-align: left;
+}
+
+.question-bloc1 {
+    list-style-image: url('../img/eagle-pose.svg');
+    padding-top: 10px;
+}
+
+.question-bloc2 {
+    list-style-image: url(../img/blue-lotus-pose.svg);
+}
+
+.question-bloc3 {
+    list-style-image: url(../img/pose-of-a-dancer.svg);
+}
+
+.question-bloc__title {
+    font-size: 1.375rem;
+    line-height: 1.3;
 }
