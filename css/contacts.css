@@ -143,3 +143,7 @@
     color: var(--paragraph-color);
   }
 
+#map {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
