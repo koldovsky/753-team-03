@@ -34,6 +34,7 @@
     --borderline-blue-color: rgb(220, 234, 253);
     --borderline-yellow-color: rgb(252, 238, 221);
     --borderline-green-color: rgb(220, 234, 223);
+    --contacts-background-color: rgb(248, 248, 248);
     --header-links-color: rgba(47, 53, 71, 0.7);
     --home-link-color: rgba(114,118,130,0.69);
     font-family: var(--main-font);
