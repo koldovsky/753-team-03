@@ -1,5 +1,5 @@
 .classes-background {
-    background-color: ;
+    background-color: var(--classes-background-color);
   }
   
   .classes-page {
