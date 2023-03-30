@@ -1,0 +1,91 @@
+.write-us {
+    background-image: url(../img/write-us-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 83.13% 59.34%;
+}
+
+.write-us__body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.write-us__form {
+    background-color: var(--light-color);
+    margin: 70px 35px;
+    padding: 35px;
+    flex: 1;
+}
+
+.write-us__title {
+    text-align: center;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--general-title-color);
+}
+
+.write-us__text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 39px;
+    color: var(--subtitle-color);
+    margin: 20px 0;
+}
+
+.write-us__sub-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 25px;
+    color: var(--paragraph-color);
+    max-width: 255px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.write-us__data-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.data-form__name,
+.data-form__number,
+.data-form__email,
+.data-form__massage {
+    background-color: var(--contacts-background-color);
+    border: none;
+    text-align: start;
+    padding: 19px 21px;
+    margin-top: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.data-form__button {
+    border: 1px solid var(--button-border-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 14.4px;
+    padding: 18px 35px;
+    margin-top: 35px;
+    background-color: var(--light-color);
+}
+
+@media(min-width: 768px) {
+    .write-us__form {
+        max-width: 500px;
+    }
+}
