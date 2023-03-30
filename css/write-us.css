@@ -42,7 +42,7 @@
 .write-us__sub-title {
     text-align: center;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 25px;
     color: var(--paragraph-color);
     max-width: 255px;
