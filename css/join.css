@@ -17,31 +17,22 @@
 .join__paragraph-container{
     margin-top: 25px;
 }
-.join__basic-things{
+.join__basic-things-container{
     margin-top: 20px;
     margin-left: 10px;
+}
+.join__basic-things-item{
+    list-style-image: url(../img/join-lotus-flower.svg);  
 }
 .join__button-container {
     display: flex;
     margin-top: 30px;
-  }
-
-.join__basic-things-item{
-    list-style-image: url(../img/join-lotus-flower.svg);
-    vertical-align: middle;
 }
-
 .join__carousel {
     max-width: 337px;
     height: auto;
     margin: auto 15px;
 }
-/* .slide-prev {
-}
-.join__slideshow {
-}
-.slide-next {
-} */
 @media (min-width: 992px){
     .join{
         grid-template-columns: 1fr 1fr 1fr;
