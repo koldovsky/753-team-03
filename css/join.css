@@ -36,12 +36,12 @@
     height: auto;
     margin: auto 15px;
 }
-.slide-prev {
+/* .slide-prev {
 }
 .join__slideshow {
 }
 .slide-next {
-}
+} */
 @media (min-width: 992){
     .join{
         grid-template-columns: 3;
