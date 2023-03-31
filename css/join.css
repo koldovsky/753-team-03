@@ -1,15 +1,49 @@
 .join{
     background-color: var(--join-background-color);
-   
+   display: grid;
+}
+.join__container{
+    margin: auto 120px;
+    padding: 125px 0;
 }
 .join__title{
     text-transform: uppercase;
     color: var(--join-title-color);
 }
+.join__subtitle{
+    font-style: 38px;
+    margin-top: 20px;
+}
+.join__paragraph-container{
+    margin-top: 25px;
+}
+.join__basic-things{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.join__button-container {
+    display: flex;
+    margin-top: 30px;
+  }
+
 .join__basic-things-item{
     list-style-image: url(../img/join-lotus-flower.svg);
+    vertical-align: middle;
 }
-.join__slideshow-photo{
-   max-width: 337px;
+
+.join__carousel {
+    max-width: 337px;
     height: auto;
+    margin: auto 15px;
+}
+.slide-prev {
+}
+.join__slideshow {
+}
+.slide-next {
+}
+@media (min-width: 992){
+    .join{
+        grid-template-columns: 3;
+    }
 }
