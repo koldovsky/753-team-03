@@ -1,5 +1,32 @@
 .about-us{
-    padding: 0 32px;
+    padding: 60px 24px 120px;
+}
+.about-us__title{
+    min-width: 73px;
+}
+.about-us__subtitle-container{
+    max-width: 600px;
+    margin-right:15px;
+}
+.about-us__subtitle{
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+.about-us__paragraph-item1-container{
+    max-width: 600px;   
+}
+.about-us__second-line-container{
+    margin-top: 50px;
+}
+.about-us__second-line-container-first-column{
+    max-width: 555px;
+}
+.about-us__paragraph-item2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.about-us__yoga-types-container{
+    max-width: 50px;
 }
 .about-us__yoga-types-title{
     color: var(--button-border-color);
@@ -12,15 +39,60 @@
     height: 3px;
     background-color: var(--general-title-color);
 }
+.about-us__yoga-types{
+    list-style-type: none;
+    width: 200px;
+}
+.about-us__list-item{
+    content: "";
+    display: flex;
+    justify-content: space-between;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--classes-background-color);
+    vertical-align: auto;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
 .about-us__conditions-title{
     color: var(--button-border-color);
     font-size: 14px;
     font-family: var(--main-font);
     font-weight: 700;
 }
-.about-us__list-item{
-    color: var( --classes-background-color);
-}
+
 .about-us__list-item-text{
     color: var( --general-text-color);
+}
+.about-us__yoga-types-title {
+    margin-right: -20px;
+}
+@media (max-width: 767px){
+    .about-us__paragraph-item1-container{
+        margin: 50px 0 0 0;
+    }
+}
+@media (min-width: 767px){
+    .about-us__first-line-container{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-us__second-line-container{
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+    .about-us__yoga-types-container{
+        max-width: 307px;
+        margin-left: 15px;  
+        padding: 0 30px;      
+    }
+    /* .about-us__second-line-container-second-column{
+        display: flex;
+        justify-content: space-between;
+        max-width: 555px;
+        margin-left: 15px;
+    } */
 }
