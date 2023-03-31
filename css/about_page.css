@@ -1,3 +1,39 @@
+/* Maslova Iryna */
+.about-background {
+    background-color: var(--pricing-background-color);
+  }
+  
+  .about-page {
+    padding-top: 75px;
+    padding-bottom: 85px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .about-title {
+    font-family: var(--subtitle-font);
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--subtitle-color);
+    margin-bottom: 25px;
+  }
+  
+  .navigation-about__home {
+    color: var(--home-link-color);
+    text-decoration: none;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+  }
+  
+  .navigation-about {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    text-decoration: underline;
+  }  
+/* Maslova Iryna */
+
 .about{
     min-width: 320px;
 }
