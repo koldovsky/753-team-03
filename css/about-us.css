@@ -85,7 +85,7 @@
     height: 10px;
     border-radius: 50%;
     background-color: var(--classes-background-color);
-    vertical-align: auto;
+    vertical-align: 5px;
     margin-bottom: 15px;
     margin-left: 5px;
 }
