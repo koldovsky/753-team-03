@@ -13,6 +13,30 @@
     font-weight: 500;
 }
 
+.classes__slider {
+
+}
+
+.slider__container {
+    margin: 0 auto;
+    width: 600px;
+    overflow: hidden;
+}
+
+.slider__track {
+    display: flex;
+}
+
+.slider__track.active {
+    transition: transform 0.8s ease-in-out; 
+}
+
+.slider__units {
+   height: 30%;
+   transition: none;
+   flex-shrink: 0;
+}
+
 .slider__units-subtitle {
     font-size: 22px;
 }
@@ -60,19 +84,23 @@
     background-attachment: fixed;
     color: var(--light-color);
 }
+
 .parallax-benefits__main-text {
     border: 2px solid white;
     padding: 30px 25px 30px 25px;
-    
+
 }
-.parallax-benefits__subtitle{
+
+.parallax-benefits__subtitle {
     color: var(--light-color);
-    font-size: 22px; 
+    font-size: 22px;
 }
-@media (min-width:768px){
+
+@media (min-width:768px) {
     .parallax-benefits {
         grid-template-columns: 7fr 5fr;
     }
+
     .parallax-benefits__main-text {
         grid-column: 2;
     }
