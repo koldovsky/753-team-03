@@ -16,25 +16,28 @@
   <header class="header container">
     <div class="header__nav">
       <div class="header__logo">
-        <img src="img/logo-main.svg" alt="Logo for Atta Yoga" />
-      </div>
+        <a href="./index.html"><img src="img/logo-main.svg" alt="Logo for Atta Yoga" /></a>
       <div class="header__burger-menu"><span></span></div>
     </div>
-    <nav class="header__links">
+<div class="header__wrapper">
+  <div class="header__links-container">
+  <nav class="header__links">
       <a href="./about.html" class="header__link">About</a>
       <a href="./classes.html" class="header__link">Classes</a>
       <a href="./index.html#pricing" class="header__link">Pricing</a>
       <a href="./schedule.html" class="header__link">Schedule</a>
       <a href="./contacts.html" class="header__link">Contacts</a>
-    </nav>
-    <div class="header__phone">
-      <a href="tel:+1(234)5678900" class="phone__number">+1 (234) 567 89 00</a>
+    </nav> 
+      <a href="tel:+1(234)5678900" class="phone__number"> +1 (234) 567 89 00</a>
     </div>
+  </div>
+</div>
   </header>
   <main>
     <section class="header__beauty-mind">
       <div class="beauty-mind__body">
         <div class="beauty-mind__background">
+          <div class="beauty-mind__text-background">
           <h2 class="beauty-mind__subtitle">BEAUTY & MIND</h2>
           <h1 class="beauty-mind__title subtitle">Atta Yoga - Your Spiritual Heaven</h1>
           <p class="beauty-mind__text">
@@ -45,11 +48,12 @@
             <a href="./contacts.html" class="button-with-background">JOIN US NOW</a>
           </div>
         </div>
-        <div class="beauty-mind__banner-photo">
-          <img src="img/yoga-girl.png" alt="Women pose yoga" />
+          <div class="beauty-mind__banner-container">
+            <img class="beauty-mind__banner-photo" src="img/yoga-girl.png" alt="Women pose yoga" />
+          </div>
         </div>
       </div>
-      <div class="advantages container">
+      <div class="advantages">
         <div class="advantages__info-section">
           <img width="70" src="img/yoga-pose-relax.svg" alt="relax pose icon" />
           <h3 class="info-section__title subtitle">Relax</h3>
@@ -106,85 +110,108 @@
 
     <!-- Marta Mykhailyna-->
     <!-- Video -->
-    <!-- <div class="before-about-us__video">
-      <div class="button-play"><img src="img/button-play.svg" alt="Button Play"></div>
-    </div> -->
+    <div class="before-about-us__video-container">
+      <div class="before-about-us__video">
+        <div class="button-play">
+          <!-- <img src="img/button-play.svg" alt="Button Play"> -->
+        </div>
+      </div>
+    </div>
     <!-- /Video -->
     <!-- About Us -->
     <section class="about-us container">
       <h2 class="about-us__title" style="text-transform: uppercase;">about us</h2>
-      <p class="about-us__subtitle subtitle">Plunge Yourself Into the Spiritual World of Yoga</p>
-      <p>
-        Atta Yoga is a community of people dedicated to sharing our years of
-        practice of yoga so that you can truly meet yourself. All our classes
-        combine flow, yogic teachings, music, and exploration. Sign up for the
-        first lesson and join any yoga practices you like.
-      </p>
-      <p style="font-size: 18px; font-weight: 500;">Our method of training is staying true to the Gurukula system.</p>
-      <p>
-        We offer a comprehensive inner adventure with the guarantee of high
-        quality and personal touch. Our retreats are the perfect way to unwind
-        and relax in a friendly environment.
-      </p>
-      <p>
-        At the Atta Yoga studio, we know that yoga is vital to remain grounded
-        both physically and mentally during hard times. We continue making
-        yoga accessible to everyone, both in person and online. We offer a
-        variety of classes and affordable payment options.
-      </p>
-      <div class="about-us__yoga-types-container">
-        <p class="about-us__yoga-types-title">YOGA TYPES</p>
-        <div class="about-us__lists-line"></div>
-        <ul class="about-us__yoga-types">
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Yoga Basics</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Ashtanga Yoga</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Vinyasa Yoga</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Hatha Yoga</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Prenatal Yoga</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Yin Yoga</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Meditation Classes</span></li>
-        </ul>
+      <div class="about-us__first-line-container">
+        <div class="about-us__subtitle-container">
+          <p class="about-us__subtitle subtitle">Plunge Yourself Into the Spiritual World of Yoga</p>
+        </div>
+        <div class="about-us__paragraph-item1-container">
+          <p class="about-us__paragraph-item1">
+            Atta Yoga is a community of people dedicated to sharing our years of
+            practice of yoga so that you can truly meet yourself. All our classes
+            combine flow, yogic teachings, music, and exploration. Sign up for the
+            first lesson and join any yoga practices you like.
+          </p>
+        </div>
       </div>
-      <div class="about-us__conditions-container">
-        <p class="about-us__conditions-title">CONDITIONS</p>
-        <div class="about-us__lists-line"></div>
-        <ul class="about-us__conditions">
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Stress + Mental Health</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Digestive Conditions</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Back Pain, Neck Pain</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Post-Surgical Support</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Migraines, Headaches</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Reproductive Health</span></li>
-          <li class="about-us__list-item"><span class="about-us__list-item-text">Depression</span></li>
-        </ul>
+      <div class="about-us__second-line-container">
+        <div class="about-us__second-line-container-first-column">
+          <p style="font-size: 18px; font-weight: 500;">
+            Our method of training is staying true to the Gurukula system.</p>
+          <p class="about-us__paragraph-item2">
+            We offer a comprehensive inner adventure with the guarantee of high
+            quality and personal touch. Our retreats are the perfect way to unwind
+            and relax in a friendly environment.
+          </p>
+          <p class="about-us__paragraph-item3">
+            At the Atta Yoga studio, we know that yoga is vital to remain grounded
+            both physically and mentally during hard times. We continue making
+            yoga accessible to everyone, both in person and online. We offer a
+            variety of classes and affordable payment options.
+          </p>
+        </div>
+        <!-- <div class="about-us__second-line-container-second-column"> -->
+        <div class="about-us__yoga-types-container">
+          <p class="about-us__yoga-types-title">YOGA TYPES</p>
+          <div class="about-us__lists-line"></div>
+          <ul class="about-us__yoga-types">
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Yoga Basics</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Ashtanga Yoga</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Vinyasa Yoga</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Hatha Yoga</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Prenatal Yoga</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Yin Yoga</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Meditation Classes</span></li>
+          </ul>
+        </div>
+        <div class="about-us__conditions-container">
+          <p class="about-us__conditions-title">CONDITIONS</p>
+          <div class="about-us__lists-line"></div>
+          <ul class="about-us__conditions">
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Stress + Mental Health</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Digestive Conditions</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Back Pain, Neck Pain</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Post-Surgical Support</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Migraines, Headaches</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Reproductive Health</span></li>
+            <li class="about-us__list-item"><span class="about-us__list-item-text">Depression</span></li>
+          </ul>
+        </div>
       </div>
+      <!-- </div> -->
     </section>
     <!-- /About Us -->
 
     <!-- JOIN -->
     <section class="join">
-      <div class="container">
+      <div class="container join__container">
         <h2 class="join__title">join</h2>
         <p class="join__subtitle subtitle">Yoga For Beginners</p>
-        <p style="font-size: 18px; font-weight: 500;">Join our classes for Level 1.</p>
-        <p>
-          Explore yoga during our beginner classes! Coaches will tell you more
-          about yoga and teach you the basic things:
-        </p>
-        <ul class="join__basic-things">
-          <li class="join__basic-things-item">Basic poses;</li>
-          <li class="join__basic-things-item">Transitional movements;</li>
-          <li class="join__basic-things-item">How to breath properly.</li>
-        </ul>
-        <div>
-          <a href="#" class="transparent-button">sign up</a>
+        <p style="font-size: 18px; font-weight: 500; margin-top: 25px;">Join our classes for Level 1.</p>
+        <div class="join__paragraph-container">
+          <p class="join__paragraph">
+            Explore yoga during our beginner classes! Coaches will tell you more
+            about yoga and teach you the basic things:
+          </p>
         </div>
-      </div>
+        <div class="join__basic-things-container">
+          <ul class="join__basic-things">
+            <li class="join__basic-things-item" style="margin-bottom: 16px;">Basic poses;</li>
+            <li class="join__basic-things-item" style="margin-bottom: 16px;">Transitional movements;</li>
+            <li class="join__basic-things-item">How to breath properly.</li>
+          </ul>
+        </div>
+        <div class="join__button-container">
+          <a href="#" class="transparent-button">
+            SING UP
+          </a>
+        </div>
 
-      <div class="join__carousel">
-        <button class="slide-prev"></button>
-        <div class="join__slideshow"></div>
-        <button class="slide-next"></button>
+        <div class="join__carousel">
+          <button class="slide-prev"></button>
+          <div class="join__slideshow"></div>
+          <button class="slide-next"></button>
+        </div>
       </div>
     </section>
     <!-- /Marta Mykhailyna-->
@@ -541,7 +568,10 @@
   <script src="js/testimonials-slider.js"></script>
   <script src="js/special-offer.js"></script>
   <script src="js/news.js"></script>
+  <script src="js/pricing.js"></script>
   <!-- <script src="js/join-slideshow.js"></script> -->
+  <script src="js/burger-menu.js"></script>
+  <script src="js/join-slideshow.js"></script>
 </body>
 
 </html>

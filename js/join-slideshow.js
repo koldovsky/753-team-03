@@ -17,5 +17,5 @@
         }
         renderSlides(slides);
     }
-    setInterval(nextSlide, 3000)
+    setInterval(nextSlide, 3000);
 })();

@@ -1,0 +1,196 @@
+/* Maslova Iryna */
+.about-background {
+    background-color: var(--pricing-background-color);
+  }
+  
+  .about-page {
+    padding-top: 75px;
+    padding-bottom: 85px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .about-title {
+    font-family: var(--subtitle-font);
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--subtitle-color);
+    margin-bottom: 25px;
+  }
+  
+  .navigation-about__home {
+    color: var(--home-link-color);
+    text-decoration: none;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+  }
+  
+  .navigation-about {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    text-decoration: underline;
+  }  
+/* Maslova Iryna */
+
+.about{
+    min-width: 320px;
+}
+.about_content{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.firstcolumn{
+    box-sizing: border-box; 
+    padding: 0 10px; 
+    max-height: 700px;
+    max-width: 400px;
+}
+.secondculonm{
+    box-sizing: border-box; 
+    padding: 0 10px; 
+    max-height: 700px;
+    max-width: 400px;
+}
+.class__img{
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 60px; 
+    max-width: 400px;
+}
+.firstcolumn__head{
+    text-align: left;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 2.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--general-title-color);
+    padding-left: 30px;
+}
+.firstcolumn__title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 39px;
+    color: var(--subtitle-color);
+    margin: 20px 0;
+    padding-left: 30px;
+}
+.firstcolumn__titletext{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--paragraph-color);
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.firstcolumn__text{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--general-text-color);
+    min-width: 320px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.secondculomn__text{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--general-text-color);
+    min-width: 320px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.secondculomn__texttwo{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--general-text-color);
+    min-width: 320px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.about__img{
+    display: block;
+    width: 320px; 
+}
+.about_futterblock{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 70px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto
+}
+.about_block{
+    border: 1px solid;
+    border-color: var(--classes-background-color);
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    min-width: 220px;
+}
+.about_num{
+    color: var(--button-color);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: var(--subtitle-font);
+}
+.about_blocktext{
+    color: var(--general-text-color);
+    font-family: var(--main-font);
+    line-height: 39px;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+}
+.block_line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 45px;
+    background-color: var(--classes-background-color);
+}

@@ -1,16 +1,17 @@
 .teacher-training__container {
     min-width: 375px;
-    min-height: 225px;
+    display: grid;
+    
 }
 .image_teacher_training {
-    
+    background-size: cover;
     width: 50%;
     float: left;
+    padding: 0;
 }
 @media (min-width: 375px) {
     .teacher-training__container .image_teacher_training {
-        display: flex;
-        align-items: flex-start;
+        
     }
 }
 .teacher-training__article {

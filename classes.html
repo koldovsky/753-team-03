@@ -1,144 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>classes</title>
-    <link rel="shortcut icon" type="image/png" href="./img/favicon-logo.png" sizes="96x96" />
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/classes.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/favicon-logo.png"
+      sizes="96x96"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header container">
-        <img class="header__logo" src="img/logo-main.svg" alt="Logo for Atta Yoga" />
-        <div class="header__burger-menu">
-          <span></span>
-        </div> 
-        <nav class="header__links">
-          <a href="./about.html" class="header__link">About</a>
-          <a href="./classes.html" class="header__link">Classes</a>
-          <a href="./index.html#pricing" class="header__link">Pricing</a>
-          <a href="./schedule.html" class="header__link">Schedule</a>
-          <a href="./contacts.html" class="header__link">Contacts</a>
-        </nav>
-        <div class="header__phone">
-          <a href="tel:+1(234)5678900" class="phone__number">+1 (234) 567 89 00</a>
-        </div>
-        <div class="classes-page">
-            <h1 class="classes-title">Classes</h1>
-            <div class="navigation-classes">
-                <a href="index.html">HOME</a>
-                <span>CLASSES</span>
-            </div>
-        </div>
+      <div class="header__nav">
+        <div class="header__logo">
+          <a href="./index.html"><img src="img/logo-main.svg" alt="Logo for Atta Yoga" /></a>
+        <div class="header__burger-menu"><span></span></div>
+      </div>
+  <div class="header__wrapper">
+    <div class="header__links-container">
+    <nav class="header__links">
+        <a href="./about.html" class="header__link">About</a>
+        <a href="./classes.html" class="header__link">Classes</a>
+        <a href="./index.html#pricing" class="header__link">Pricing</a>
+        <a href="./schedule.html" class="header__link">Schedule</a>
+        <a href="./contacts.html" class="header__link">Contacts</a>
+      </nav> 
+        <a href="tel:+1(234)5678900" class="phone__number"> +1 (234) 567 89 00</a>
+      </div>
+    </div>
+  </div>
     </header>
     <main>
-        <section class="styles">
-            <h2 class="styles__main-title">STYLES</h2>
-            <p class="styles__subtitle">Yoga Styles</p>
-            <p class="styles__subtext">Find your</p>
-            <div class="styles__yoga-basic">
-                <img src="img/styles-basics.png" alt="Yoga Basic style">
-                <p class="styles__instructors">INSTRUCTORS: ALBERTA MITCHELL, EMILY STONE</p>
-                <h3 class="styles__title">Yoga Basic</h3>
-                <p class="styles__text">Whether you want to get familiar with the basics of yoga practice, search
-                    for comprehensive instructions to the poses, or just have an injury to be healed, then this basic
-                    yoga class is the ideal class for you! We introduce the basic movements and techniques of yoga.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__ashtanga-yoga">
-                <img src="img/styles-ashtanga.png" alt="Ashtanga Yoga style">
-                <p class="styles__instructors">INSTRUCTOR: PETER ALVARADO</p>
-                <h3 class="styles__title">Ashtanga Yoga</h3>
-                <p class="styles__text">Ashtanga Yoga is an active, physically difficult practice of breath and
-                    movement synchronization to generate an inner heat produced to clean the body. This form of yoga is
-                    a perfect way to build strength and tone the whole organism. Get ready to perspire profusely because
-                    of quick movements.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__vinyasa-yoga">
-                <img src="img/styles-vinyasa.png" alt="Vinyasa Yoga style">
-                <p class="styles__instructors">INSTRUCTOR: ANN DOHERTY</p>
-                <h3 class="styles__title">Vinyasa Yoga</h3>
-                <p class="styles__text">Vinyasa Yoga is a vigorous class consisting of asana practice to
-                    strenghten body and mind. Vinyasa means "connection of movement and breath". Through a creative
-                    series of asanas the teacher prepares you for more challenging poses.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__hatha-yoga">
-                <img src="img/styles-hatha.png" alt="Hatha Yoga style">
-                <p class="styles__instructors">INSTRUCTOR: ANN DOHERTY</p>
-                <h3 class="styles__title">Hatha Yoga</h3>
-                <p class="styles__text">Hatha yoga is an ancient system, the purpose of which is to reach the
-                    heights of human development through special body-oriented practices and knowledge about the human
-                    body. Hatha yoga begins with the body — with its feeling, experiencing, and accepting different
-                    sensation.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__meditation">
-                <img src="img/styles-meditation.png" alt="Meditation style">
-                <p class="styles__instructors">INSTRUCTOR: PETER ALVARADO</p>
-                <h3 class="styles__title">Meditation</h3>
-                <p class="styles__text">Numerous scientific researches show the advantages of meditation on the
-                    emotional, physical, and mental levels. Daily meditations show the improved functioning of the
-                    nervous system, physical changes in the brain, enhanced creativity, and greater overall health.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__yin-yoga">
-                <img src="img/styles-yin.png" alt="Yin Yoga style">
-                <p class="stylesa__instructors">INSTRUCTOR: LILLIE FLEMING</p>
-                <h3 class="stylesa__title">Yin Yoga</h3>
-                <p class="styles__text">Yin is one of the yoga styles which joins together all the aspects of Hatha
-                    yoga, Taoist philosophy, the Chinese medicine's conception of the meridians, and Buddhist methods of
-                    meditation. Yin yoga classes positively influence the whole body, inside and out.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
-            <div class="styles__prenatal-yoga">
-                <img src="img/styles-prenatal.png" alt="Prenatal Yoga style">
-                <p class="styles__instructors">INSTRUCTOR: EMILY STONE</p>
-                <h3 class="styles__title">Prenatal Yoga</h3>
-                <p class="styles__text">Prenatal Yoga is a special yoga practice designed for expectant women.
-                    This style can help would-be-mothers to get in touch with their babies emotionally and physically.
-                    Prenatal Yoga will assist them in becoming more flexible during the pregnancy and after the
-                    delivery.</p>
-                <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
-            </div>
+      <div class="classes-background">
+        <section class="classes-page container">
+          <h1 class="classes-title">Classes</h1>
+          <div class="navigation-classes">
+            <a href="index.html" class="navigation-classes__home">HOME > </a>
+            <span class="navigation-classes"> CLASSES</span>
+          </div>
         </section>
+      </div>
+      <section class="styles">
+        <h2 class="styles__main-title">STYLES</h2>
+        <p class="styles__subtitle">Yoga Styles</p>
+        <p class="styles__subtext">Find your</p>
+        <div class="styles__yoga-basic">
+          <img src="img/styles-basics.png" alt="Yoga Basic style" />
+          <p class="styles__instructors">
+            INSTRUCTORS: ALBERTA MITCHELL, EMILY STONE
+          </p>
+          <h3 class="styles__title">Yoga Basic</h3>
+          <p class="styles__text">
+            Whether you want to get familiar with the basics of yoga practice,
+            search for comprehensive instructions to the poses, or just have an
+            injury to be healed, then this basic yoga class is the ideal class
+            for you! We introduce the basic movements and techniques of yoga.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__ashtanga-yoga">
+          <img src="img/styles-ashtanga.png" alt="Ashtanga Yoga style" />
+          <p class="styles__instructors">INSTRUCTOR: PETER ALVARADO</p>
+          <h3 class="styles__title">Ashtanga Yoga</h3>
+          <p class="styles__text">
+            Ashtanga Yoga is an active, physically difficult practice of breath
+            and movement synchronization to generate an inner heat produced to
+            clean the body. This form of yoga is a perfect way to build strength
+            and tone the whole organism. Get ready to perspire profusely because
+            of quick movements.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__vinyasa-yoga">
+          <img src="img/styles-vinyasa.png" alt="Vinyasa Yoga style" />
+          <p class="styles__instructors">INSTRUCTOR: ANN DOHERTY</p>
+          <h3 class="styles__title">Vinyasa Yoga</h3>
+          <p class="styles__text">
+            Vinyasa Yoga is a vigorous class consisting of asana practice to
+            strenghten body and mind. Vinyasa means "connection of movement and
+            breath". Through a creative series of asanas the teacher prepares
+            you for more challenging poses.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__hatha-yoga">
+          <img src="img/styles-hatha.png" alt="Hatha Yoga style" />
+          <p class="styles__instructors">INSTRUCTOR: ANN DOHERTY</p>
+          <h3 class="styles__title">Hatha Yoga</h3>
+          <p class="styles__text">
+            Hatha yoga is an ancient system, the purpose of which is to reach
+            the heights of human development through special body-oriented
+            practices and knowledge about the human body. Hatha yoga begins with
+            the body — with its feeling, experiencing, and accepting different
+            sensation.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__meditation">
+          <img src="img/styles-meditation.png" alt="Meditation style" />
+          <p class="styles__instructors">INSTRUCTOR: PETER ALVARADO</p>
+          <h3 class="styles__title">Meditation</h3>
+          <p class="styles__text">
+            Numerous scientific researches show the advantages of meditation on
+            the emotional, physical, and mental levels. Daily meditations show
+            the improved functioning of the nervous system, physical changes in
+            the brain, enhanced creativity, and greater overall health.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__yin-yoga">
+          <img src="img/styles-yin.png" alt="Yin Yoga style" />
+          <p class="stylesa__instructors">INSTRUCTOR: LILLIE FLEMING</p>
+          <h3 class="stylesa__title">Yin Yoga</h3>
+          <p class="styles__text">
+            Yin is one of the yoga styles which joins together all the aspects
+            of Hatha yoga, Taoist philosophy, the Chinese medicine's conception
+            of the meridians, and Buddhist methods of meditation. Yin yoga
+            classes positively influence the whole body, inside and out.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+        <div class="styles__prenatal-yoga">
+          <img src="img/styles-prenatal.png" alt="Prenatal Yoga style" />
+          <p class="styles__instructors">INSTRUCTOR: EMILY STONE</p>
+          <h3 class="styles__title">Prenatal Yoga</h3>
+          <p class="styles__text">
+            Prenatal Yoga is a special yoga practice designed for expectant
+            women. This style can help would-be-mothers to get in touch with
+            their babies emotionally and physically. Prenatal Yoga will assist
+            them in becoming more flexible during the pregnancy and after the
+            delivery.
+          </p>
+          <a href="./contacts.html" class="styles__button">JOIN GROUP</a>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__head">
-            <img class="footer__logo-lotus" src="img/footer-logo.svg" alt="Atta Yoga" />
-            <h2 class="footer__title">Your Spiritual Heaven</h2>
-        </div>
-        <nav class="footer__nav-pages">
-            <ul>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./classes.html">Classes</a></li>
-                <li><a href="./schedule.html">Schedule</a></li>
-                <li><a href="./index.html#pricing">Pricing</a></li>
-                <li><a href="./contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
-        <p class="footer__main-text">
-            Find balance and serenity in this hectic life through yoga practices in
-            our studio. Heal your body and soul and become a healthier person.
-        </p>
-        <nav class="footer__nav-resources">
-            <ul>
-                <li>
-                    <img src="img/footer-facebook-logo.svg" alt="Atta Facebook" />
-                </li>
-                <li>
-                    <img src="img/footer-instagram-logo.svg" alt="Atta Instagram" />
-                </li>
-                <li><img src="img/footer-youtube-logo.svg" alt="Atta Youtube" /></li>
-                <li><img src="img/footer-twitter-logo.svg" alt="Atta Twitter" /></li>
-            </ul>
-            <div class="footer__commercial">© Created by | All rights Reserved</div>
-        </nav>
+      <div class="footer__head">
+        <img
+          class="footer__logo-lotus"
+          src="img/footer-logo.svg"
+          alt="Atta Yoga"
+        />
+        <h2 class="footer__title">Your Spiritual Heaven</h2>
+      </div>
+      <nav class="footer__nav-pages">
+        <ul>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./classes.html">Classes</a></li>
+          <li><a href="./schedule.html">Schedule</a></li>
+          <li><a href="./index.html#pricing">Pricing</a></li>
+          <li><a href="./contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <p class="footer__main-text">
+        Find balance and serenity in this hectic life through yoga practices in
+        our studio. Heal your body and soul and become a healthier person.
+      </p>
+      <nav class="footer__nav-resources">
+        <ul>
+          <li>
+            <img src="img/footer-facebook-logo.svg" alt="Atta Facebook" />
+          </li>
+          <li>
+            <img src="img/footer-instagram-logo.svg" alt="Atta Instagram" />
+          </li>
+          <li><img src="img/footer-youtube-logo.svg" alt="Atta Youtube" /></li>
+          <li><img src="img/footer-twitter-logo.svg" alt="Atta Twitter" /></li>
+        </ul>
+        <div class="footer__commercial">© Created by | All rights Reserved</div>
+      </nav>
     </footer>
-</body>
-
+    <script src="js/burger-menu.js"></script>
+  </body>
 </html>
