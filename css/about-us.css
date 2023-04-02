@@ -1,42 +1,9 @@
-.about-background {
-    background-color: var(--pricing-background-color);
-  }
-  
-  .about-page {
-    padding-top: 75px;
-    padding-bottom: 85px;
-    text-align: center;
-    position: relative;
-  }
-
-  .about-title {
-    font-family: var(--subtitle-font);
-    font-size: 1.875rem;
-    font-weight: 400;
-    color: var(--subtitle-color);
-    margin-bottom: 25px;
-  }
-  
-  .navigation-about__home {
-    color: var(--home-link-color);
-    text-decoration: none;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 2.2px;
-  }
-  
-  .navigation-about {
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 2.2px;
-    text-decoration: underline;
-  }  
-
 .about-us{
     padding: 60px 24px 120px;
 }
 .about-us__title{
     min-width: 73px;
+    margin-bottom: 25px;
 }
 .about-us__subtitle-container{
     max-width: 600px;
@@ -59,19 +26,23 @@
     margin-top: 25px;
     margin-bottom: 20px;
 }
-.about-us__yoga-types-container{
-    max-width: 50px;
+
+.about-us__yoga-types-title-container{
+    width: 150px;
+    margin-bottom: 15px;
 }
 .about-us__yoga-types-title{
     color: var(--button-border-color);
     font-size: 14px;
     font-family: var(--main-font);
     font-weight: 700;
+    letter-spacing: calc(0.2*1em);
 }
 .about-us__lists-line{
     width: 59px;
     height: 3px;
     background-color: var(--general-title-color);
+    margin-bottom: 15px;
 }
 .about-us__yoga-types{
     list-style-type: none;
@@ -80,6 +51,7 @@
 .about-us__list-item {
     display: flex;
     align-items: center;
+    margin-bottom: 3px;
 }
 .about-us__list-item::before{
       content: " ";
@@ -95,17 +67,19 @@
     font-size: 14px;
     font-family: var(--main-font);
     font-weight: 700;
+    letter-spacing: calc(0.2*1em);
+    margin-bottom: 15px;
 }
 
 .about-us__list-item-text{
     color: var( --general-text-color);
 }
-.about-us__yoga-types-title {
-    margin-right: -20px;
-}
 @media (max-width: 767px){
     .about-us__paragraph-item1-container{
         margin: 50px 0 0 0;
+    }
+    .about-us__lists{
+        margin-top: 60px;
     }
 }
 @media (min-width: 767px){
@@ -121,12 +95,5 @@
     .about-us__yoga-types-container{
         max-width: 307px;
         margin-left: 15px;  
-        padding: 0 30px;      
     }
-    /* .about-us__second-line-container-second-column{
-        display: flex;
-        justify-content: space-between;
-        max-width: 555px;
-        margin-left: 15px;
-    } */
 }
