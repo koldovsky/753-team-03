@@ -1,14 +1,35 @@
-.before-about-us__video-container{
-    margin: 50px;
-    max-width: 1170px;
-    height: 100%;  
-    background-color: black; 
+.before-about-us__video-section{
+    max-width: 100%;
+    /* height: 100%; */
+    padding: 0 40px;
 }
+ .before-about-us__video-container{
+    max-width: 1200px;
+    min-height: 620px;
+    margin: 0 auto;
+} 
 .before-about-us__video{
-    /* background-image: url(../img/video-photo-background.jpeg); */
+    background-image: url(../img/video-photo-background.jpeg);
     background-size: cover;
-    
+    background-position: 37% 57%;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
-/* .button-play{
-    z-index: 50;
-} */
+.button-play-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--third-title-color);
+    border-radius: 50%;
+    opacity: 0.48;
+    height: 100px;
+    width: 100px;
+}
+
+.button-play{
+    max-width: 60px;
+    height: 100%;
+}

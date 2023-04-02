@@ -77,17 +77,17 @@
     list-style-type: none;
     width: 200px;
 }
-.about-us__list-item{
-    content: "";
+.about-us__list-item {
     display: flex;
-    justify-content: space-between;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: var(--classes-background-color);
-    vertical-align: 5px;
-    margin-bottom: 15px;
-    margin-left: 5px;
+    align-items: center;
+}
+.about-us__list-item::before{
+      content: " ";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--classes-background-color);
+      margin: 0 10px 0 0;
 }
 
 .about-us__conditions-title{
