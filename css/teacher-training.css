@@ -1,24 +1,31 @@
 .teacher-training__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     min-width: 375px;
-    display: grid;
+    margin-bottom: 20px;
     
 }
 .image_teacher_training {
-    background-size: cover;
-    width: 50%;
+    width: 100%;
+    height: auto;
     float: left;
-    padding: 0;
-}
-@media (min-width: 375px) {
-    .teacher-training__container .image_teacher_training {
-        
-    }
+    margin-right: 20px;
 }
 .teacher-training__article {
-    margin: 30px 20px 20px 30px;
-    background-color: transparent;
-    line-height: 25px;
+    flex-grow: 1;
 }
+@media (min-width: 375px) {
+    .container {
+        flex-direction: column;
+    }
+    .image_teacher_training {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
 .teacher-training-button {
     background-color: var(--button-color);
     text-decoration: none;
