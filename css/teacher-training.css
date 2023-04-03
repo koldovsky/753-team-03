@@ -25,19 +25,22 @@
         margin-bottom: 20px;
     }
 }
-
 .teacher-training-button {
-    background-color: var(--button-color);
-    text-decoration: none;
     display: inline-block;
-    position: relative;
+    padding: 15px 32px;
+    font-size: 12px;
+    font-weight: 700;
     text-align: center;
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--light-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
     margin-bottom: 20px;
     width: 180px;
     height: 52px;
-    color: var(--light-color);
-    font-weight: 700;
-    font-size: 12px;
     letter-spacing: 1.2px;
-    padding: 15px 32px;
+}
+.teacher-training-button:hover {
+    background-color: rgb(0, 0, 0);
 }
