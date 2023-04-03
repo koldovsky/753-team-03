@@ -136,7 +136,14 @@
     padding-right: 30px;
     justify-content: center;
     min-width: 220px;
+    animation: highlight 5s infinite;
 }
+@keyframes highlight {
+    50% {
+      background-color: var(--contacts-background-color);
+      border-color: var(--button-border-color);
+    }
+  }
 .about_num{
     color: var(--button-color);
     line-height: 39px;
