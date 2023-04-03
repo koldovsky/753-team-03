@@ -13,10 +13,6 @@
     font-size: 18px;
     margin: 20px 70px 40px 70px;
 }
-
-.teacher-training__article {
-    text-align: center;
-}
 .image_teacher_training {
     width: 100%;
     height: auto;
@@ -32,7 +28,6 @@
     }
     .image_teacher_training {
         float: none;
-        
         margin-bottom: 20px;
     }
 }
