@@ -1,4 +1,5 @@
 @import "page-titles.css";
+@import "styles.css";
 
 .classes-background {
     background-color: var(--classes-background-color);
