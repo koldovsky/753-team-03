@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .meet__text-container {
@@ -28,7 +27,6 @@
     margin: 0 auto;
     padding: 50px;
     box-sizing: border-box;
-
 }
 
 .meet__title {
@@ -37,27 +35,19 @@
 
 .meet__subtitle {
     margin-bottom: 35px;
-    font-family: var(--subtitle-font);
-    color: var(--subtitle-color);
-    line-height: 39px;
-    letter-spacing: 0.6px;
-    font-size: 30px;
-    font-weight: 400;
 }
 
-.meet__text__first-text {
+.meet__first-text {
     margin-bottom: 30px;
     font-size: 17px;
     font-weight: 500;
 }
 
-.meet__text__second-text {
+.meet__second-text {
     margin-bottom: 30px;
-
 }
 
 @media (max-width:768px) {
-
     .meet {
         flex-direction: column;
         height: 100%;
