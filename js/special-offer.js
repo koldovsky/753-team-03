@@ -1,4 +1,4 @@
-const endDate = new Date("2023-04-01T00:00:00");
+const endDate = new Date("2023-04-16T00:00:00");
 const countdownElement = document.getElementById("countdown");
 
 function updateCountdown() {
