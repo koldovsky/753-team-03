@@ -1,7 +1,7 @@
 .styles {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: #f8f8f8;
+    background-color: var(--contacts-background-color);
 }
 
 .styles__section {
@@ -106,5 +106,16 @@
   .styles__block-photo,
   .styles__block-info {
     width: 50%;
+    max-width: 516px;
   }
+
+  .styles__block-info {
+    padding: 46px 52px;
+  }
+}
+
+@media (min-width: 992px) {
+    .styles__block-info {
+        padding: 60px 70px;
+      }  
 }
