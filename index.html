@@ -188,6 +188,7 @@
 
     <!-- JOIN -->
     <section class="join">
+      <div class="join__grid-container">
       <div class="container join__container">
         <h2 class="join__title">join</h2>
         <p class="join__subtitle subtitle">Yoga For Beginners</p>
@@ -210,12 +211,15 @@
             SING UP
           </a>
         </div>
+        </div>
         <div class="join__carousel-container">
-          <div class="join__carousel">
-            <button class="slide-prev"></button>
-            <div class="join__slideshow"></div>
-            <button class="slide-next"></button>
+          <button class="join__slide-prev-btn"><div class="join__slide-btn"></div></button>
+          <div class="join__slides-container">
+            <div class="join__slide-photo"><img src="img/join-slideshow-photo1.png" alt="Yoga"></div>
+            <div class="join__slide-photo"><img src="img/join-slideshow-photo2.png" alt="Yoga"></div>
+            <div class="join__slide-photo"><img src="img/join-slideshow-photo3.png" alt="Yoga"></div>
           </div>
+          <button class="join__slide-next-btn"><div class="join__slide-btn"></div></button>
         </div>
       </div>
     </section>
@@ -295,7 +299,9 @@
 
     <!--Alena Maliushchenko-->
     <section class="teacher-training container">
-      <img src="img/yoga-practice.png" alt="yoga-practice" class="image_teacher_training">
+      <div class="image_teacher_training-container">
+        <img src="img/yoga-practice.png" alt="yoga-practice" class="image_teacher_training">
+      </div>
       <div class="teacher-training__article">
         <h2 class="teacher-training__title">TEACHER TRAINING</h2>
         <p class="teacher-training__subtitle subtitle"> Become a Teacher or Just Improve Your Practice</p>
