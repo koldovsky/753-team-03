@@ -37,12 +37,6 @@
 
 .meet__subtitle {
     margin-bottom: 35px;
-    font-family: var(--subtitle-font);
-    color: var(--subtitle-color);
-    line-height: 39px;
-    letter-spacing: 0.6px;
-    font-size: 30px;
-    font-weight: 400;
 }
 
 .meet__first-text {
