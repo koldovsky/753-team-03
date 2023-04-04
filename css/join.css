@@ -1,10 +1,26 @@
 .join {
   background-color: var(--join-background-color);
+  display: flex;
+}
+.join__container{
+  display: flex;
+  justify-content: space-between;
+}
+.join__grid-container{
   display: grid;
 }
-.join__container {
-  margin: auto 120px;
-  padding: 125px 0;
+@media (min-width: 992px){
+  .join__grid-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 991px){
+  .join__carousel-container{
+    margin-top: 30px;
+  }
+  .join__grid-container{
+    grid-template-columns: 1fr;
+  }
 }
 .join__title {
   text-transform: uppercase;
@@ -19,7 +35,6 @@
 }
 .join__basic-things-container {
   margin-top: 20px;
-  margin-left: 10px;
 }
 .join__basic-things-item {
   display: flex;
@@ -27,22 +42,85 @@
 }
 .join__basic-things-item::before {
   content: url(../img/join-lotus-flower.svg);
-  /* width: 10px;
-  height: 10px; */
-  /* margin: 0 10px 0 0; */
+  margin: 0 10px 0 0;
   vertical-align: middle;
 }
 .join__button-container {
   display: flex;
   margin-top: 30px;
 }
-.join__carousel {
-  max-width: 337px;
-  height: auto;
-  margin: auto 15px;
+.join__carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 20px;
+}
+.join__slide-prev-btn {
+  border-style: none;
+  border-radius: 50%;
+  background-color: var( --footer-background-color);
+  width: 32px;
+  height: 32px;
+  opacity: 0.99;
+  position: absolute;
+  margin-right: 659px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-45deg);
+}
+.join__slide-btn {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  width: 14px;
+  height: 14px;
+  border-radius: 20%;
+}
+.join__slides-container {
+  display: flex;
+}
+.join__slide-photo {
+  max-width: 615px;
+  margin-left: 15px;
+  max-height: 688px;
+}
+.join__slide-next-btn {
+  border-style: none;
+  border-radius: 50%;
+  background-color: var( --footer-background-color);
+  width: 32px;
+  height: 32px;
+  opacity: 0.99;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(132deg);
+  margin-left: 689px;
+}
+@media (min-width: 768px){
+  .join__carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .join__slide-photo{
+    min-width: 326px;
+    max-width: 434px;
+  }
+}
+@media (max-width: 991px) {
+  .join__container {
+    margin: auto 40px;
+    padding: 125px 0;
+  }
 }
 @media (min-width: 992px) {
-  .join {
-    grid-template-columns: 1fr 1fr 1fr;
+  .join__container {
+    margin: auto 120px;
+    padding: 125px 0;
   }
+
 }

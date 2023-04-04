@@ -16,17 +16,17 @@
   <header class="header container">
     <div class="header__nav">
       <div class="header__logo">
-        <a href="./index.html"><img src="img/logo-main.svg" alt="Logo for Atta Yoga"/></a>
+        <a href="./index.html"><img src="img/logo-main.svg" alt="Logo for Atta Yoga" /></a>
         <div class="header__burger-menu"><span></span></div>
       </div>
       <div class="header__wrapper">
         <div class="header__links-container">
           <nav class="header__links">
-            <a href="./about.html" class="header__link">About</a>
-            <a href="./classes.html" class="header__link">Classes</a>
-            <a href="./index.html#pricing" class="header__link">Pricing</a>
-            <a href="./schedule.html" class="header__link">Schedule</a>
-            <a href="./contacts.html" class="header__link">Contacts</a>
+            <a href="./about.html" class="header__link"><span>About</span></a>
+            <a href="./classes.html" class="header__link"><span>Classes</span></a>
+            <a href="./index.html#pricing" class="header__link"><span>Pricing</span></a>
+            <a href="./schedule.html" class="header__link"><span>Schedule</span></a>
+            <a href="./contacts.html" class="header__link"><span>Contacts</span></a>
           </nav>
           <a href="tel:+1(234)5678900" class="phone__number"> +1 (234) 567 89 00</a>
         </div>
@@ -36,7 +36,7 @@
   <main>
     <section class="header__beauty-mind">
       <div class="beauty-mind__body">
-        <div class="beauty-mind__background">
+        <div class="beauty-mind__background container">
           <div class="beauty-mind__text-background">
             <h2 class="beauty-mind__subtitle">BEAUTY & MIND</h2>
             <h1 class="beauty-mind__title subtitle">Atta Yoga - Your Spiritual Heaven</h1>
@@ -55,7 +55,7 @@
       </div>
       <div class="advantages">
         <div class="advantages__info-section">
-          <img width="70" src="img/yoga-pose-relax.svg" alt="relax pose icon" />
+          <img src="img/yoga-pose-relax.svg" alt="relax pose icon" />
           <h3 class="info-section__title subtitle">Relax</h3>
           <div class="info-section__borderline">
             <div class="info-section__borderline-blue"><span></span></div>
@@ -65,7 +65,7 @@
           </p>
         </div>
         <div class="advantages__info-section">
-          <img width="70" src="img/yoga-pose-stretch.svg" alt="stretch pose icon" />
+          <img src="img/yoga-pose-stretch.svg" alt="stretch pose icon" />
           <h3 class="info-section__title subtitle">Stretch</h3>
           <div class="info-section__borderline">
             <div class="info-section__borderline-yellow"><span></span></div>
@@ -75,7 +75,7 @@
           </p>
         </div>
         <div class="advantages__info-section">
-          <img width="70" src="img/yoga-pose-stay-fit.svg" alt="stay fit pose icon" />
+          <img src="img/yoga-pose-stay-fit.svg" alt="stay fit pose icon" />
           <h3 class="info-section__title subtitle">Stay Fit</h3>
           <div class="info-section__borderline">
             <div class="info-section__borderline-blue"><span></span></div>
@@ -85,7 +85,7 @@
           </p>
         </div>
         <div class="advantages__info-section">
-          <img width="70" src="img/yoga-pose-meditate.svg" alt="meditate pose icon" />
+          <img src="img/yoga-pose-meditate.svg" alt="meditate pose icon" />
           <h3 class="info-section__title subtitle">Meditate</h3>
           <div class="info-section__borderline">
             <div class="info-section__borderline-green"><span></span></div>
@@ -95,7 +95,7 @@
           </p>
         </div>
         <div class="advantages__info-section">
-          <img width="70" src="img/yoga-pose-progress.svg" alt="progress pose icon" />
+          <img src="img/yoga-pose-progress.svg" alt="progress pose icon" />
           <h3 class="info-section__title subtitle">Progress</h3>
           <div class="info-section__borderline">
             <div class="info-section__borderline-yellow"><span></span></div>
@@ -189,32 +189,40 @@
     <!-- JOIN -->
     <section class="join">
       <div class="container join__container">
-        <h2 class="join__title">join</h2>
-        <p class="join__subtitle subtitle">Yoga For Beginners</p>
-        <p style="font-size: 18px; font-weight: 500; margin-top: 25px;">Join our classes for Level 1.</p>
-        <div class="join__paragraph-container">
-          <p class="join__paragraph">
-            Explore yoga during our beginner classes! Coaches will tell you more
-            about yoga and teach you the basic things:
-          </p>
-        </div>
-        <div class="join__basic-things-container">
-          <ul class="join__basic-things">
-            <li class="join__basic-things-item" style="margin-bottom: 16px;">Basic poses;</li>
-            <li class="join__basic-things-item" style="margin-bottom: 16px;">Transitional movements;</li>
-            <li class="join__basic-things-item">How to breath properly.</li>
-          </ul>
-        </div>
-        <div class="join__button-container">
-          <a href="#" class="transparent-button">
-            SING UP
-          </a>
-        </div>
-        <div class="join__carousel-container">
-          <div class="join__carousel">
-            <button class="slide-prev"></button>
-            <div class="join__slideshow"></div>
-            <button class="slide-next"></button>
+        <div class="join__grid-container">
+          <div class="join__first-column">
+            <h2 class="join__title">join</h2>
+            <p class="join__subtitle subtitle">Yoga For Beginners</p>
+            <p style="font-size: 18px; font-weight: 500; margin-top: 25px;">Join our classes for Level 1.</p>
+            <div class="join__paragraph-container">
+              <p class="join__paragraph">
+                Explore yoga during our beginner classes! Coaches will tell you more
+                about yoga and teach you the basic things:
+              </p>
+            </div>
+            <div class="join__basic-things-container">
+              <ul class="join__basic-things">
+                <li class="join__basic-things-item" style="margin-bottom: 16px;">Basic poses;</li>
+                <li class="join__basic-things-item" style="margin-bottom: 16px;">Transitional movements;</li>
+                <li class="join__basic-things-item">How to breath properly.</li>
+              </ul>
+            </div>
+            <div class="join__button-container">
+              <a href="#" class="transparent-button">
+                SING UP
+              </a>
+            </div>
+          </div>
+          <div class="join__carousel-container">
+            <button class="join__slide-prev-btn">
+              <span class="join__slide-btn"></span>
+            </button>
+            <div class="join__slides-container">
+              <div class="join__slide-photo"><img src="img/join-slideshow-photo1.png" alt="Yoga"></div>
+              <div class="join__slide-photo"><img src="img/join-slideshow-photo2-copy.jpg" alt="Yoga"></div>
+              <div class="join__slide-photo"><img src="img/join-slideshow-photo3-copy.jpg" alt="Yoga"></div>
+            </div>
+            <button class="join__slide-next-btn"><span class="join__slide-btn"></span></button>
           </div>
         </div>
       </div>
@@ -294,15 +302,20 @@
     <!-- /Vladyslava Korogodova -->
 
     <!--Alena Maliushchenko-->
+<<<<<<< HEAD
     <section class="teacher-training">
       <div class="image_teacher_training-container">
         <img src="img/yoga-practice.png" alt="yoga-practice" class="image_teacher_training">
       </div>
+=======
+    <section class="teacher-training container">
+      <img src="img/yoga-practice.png" alt="yoga-practice" class="image_teacher_training">
+>>>>>>> 9f735c859594d82ccca292f70a3fdfc7b1f2f8fd
       <div class="teacher-training__article">
         <h2 class="teacher-training__title">TEACHER TRAINING</h2>
         <p class="teacher-training__subtitle subtitle"> Become a Teacher or Just Improve Your Practice</p>
-        <p class="teacher-training__text">We offer classes for all skill levels.</p>
         <div class="teacher-training__paragraph">
+          <p class="teacher-training__text">We offer classes for all skill levels.</p>
           <p class="teacher-training__main-text">Based on the tradition of authentic ancestors, our program is aimed at
             bringing yoga back to its true home as
             an alive art and as a comprehensive way to revival.
@@ -340,7 +353,7 @@
           <p class="membership_price"><span class="membership_marker">• </span>1-Month Unlimited<span
               class="membership_marker"> $120 •</span></p>
           <div class="membership_buttom">
-            <a href="./contacts.html" class="membership_buttomlink">JOIN US NOW</a>
+            <a href="./contacts.html" class="membership_buttom_link">JOIN US NOW</a>
           </div>
         </div>
         <div class="class_detail">
@@ -381,38 +394,35 @@
     <!--Kraynik Vlad-->
 
     <!-- Maslova Iryna -->
-    <div class="parallax">
-      <div class="parallax-background"></div>
-      <div class="parallax-content">
-        <section class="special-offer container">
-          <h2 class="special-offer__title">SPECIAL OFFER</h2>
-          <p class="special-offer__sub-title subtitle">Yoga is For Everyone!</p>
-          <div class="countdown-container">
-            <p class="countdown-text">Time left until the offer ends: </p>
-            <div id="countdown"></div>
+    <div class="parallax-content">
+      <section class="special-offer container">
+        <h2 class="special-offer__title">SPECIAL OFFER</h2>
+        <p class="special-offer__sub-title subtitle">Yoga is For Everyone!</p>
+        <div class="countdown-container">
+          <p class="countdown-text">Time left until the offer ends: </p>
+          <div id="countdown"></div>
+        </div>
+        <div class="special-offer-paragraph">
+          <p class="special-offer__text">
+            Get your -10% discount on all classes.
+          </p>
+          <p class="special-offer__main-text">
+            We offer a <span class="special-offer__discount">10% discount</span> on the first class or membership, so
+            that
+            you can get to know our yoga instructors better and choose classes
+            to your liking.
+          </p>
+          <p class="special-offer__main-text">
+            All you need is to contact our managers and sign up for the first
+            lesson. When you come to our studio, you will pay for one lesson
+            or the selected membership with a 10% discount.
+          </p>
+          <div class="special-offer__nav-button">
+            <a href="contacts.html" class="special-offer__contacts-linc button-with-background">START YOGA TODAY</a>
+            <a href="schedule.html" class="special-offer__schedule-linc transparent-button">LEARN MORE</a>
           </div>
-          <div class="special-offer-paragraph">
-            <p class="special-offer__text">
-              Get your -10% discount on all classes.
-            </p>
-            <p class="special-offer__main-text">
-              We offer a <span class="special-offer__discount">10% discount</span> on the first class or membership, so
-              that
-              you can get to know our yoga instructors better and choose classes
-              to your liking.
-            </p>
-            <p class="special-offer__main-text">
-              All you need is to contact our managers and sign up for the first
-              lesson. When you come to our studio, you will pay for one lesson
-              or the selected membership with a 10% discount.
-            </p>
-            <div class="special-offer__nav-button">
-              <a href="contacts.html" class="special-offer__contacts-linc button-with-background">START YOGA TODAY</a>
-              <a href="schedule.html" class="special-offer__schedule-linc transparent-button">LEARN MORE</a>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
     <!-- Maslova Iryna -->
 
