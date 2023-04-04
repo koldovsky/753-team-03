@@ -1,0 +1,29 @@
+.page-titles-background {
+    background-color: var(--pricing-background-color);
+  }
+  
+  .page-titles-page {
+    padding-top: 75px;
+    padding-bottom: 85px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .page-titles-title {
+    margin-bottom: 25px;
+  }
+  
+  .navigation-page-titles__home {
+    color: var(--home-link-color);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    text-decoration: none;
+  }
+  
+  .navigation-page-titles > span {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    text-decoration: underline;
+  }
