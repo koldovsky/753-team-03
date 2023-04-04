@@ -1,9 +1,22 @@
 (function () {
   const slides = [
     '<div class="join__slide-photo"><img src="img/join-slideshow-photo1.png" alt="Yoga"></div>',
-    '<div class="join__slide-photo"><img src="img/join-slideshow-photo2.png" alt="Yoga"></div>',
-    '<div class="join__slide-photo"><img src="img/join-slideshow-photo3.png" alt="Yoga"></div>',
+    '<div class="join__slide-photo"><img src="img/join-slideshow-photo2-copy.jpg" alt="Yoga"></div>',
+    '<div class="join__slide-photo"><img src="img/join-slideshow-photo3-copy.jpg" alt="Yoga"></div>',
   ];
+  const photoContainer = document.querySelector(".join__slides-container");
+  const photos = photoContainer.querySelectorAll(".join__slide-photo");
+
+  let maxHeight = 0;
+  photos.forEach((photo) => {
+    if (photo.height > maxHeight) {
+      maxHeight = photo.height;
+    }
+  });
+  photos.forEach(photo => {
+    photo.style.height = `${maxHeight}px`;
+  });
+
   const carousel = document.querySelector(".join__carousel-container");
   const slideContainer = carousel.querySelector(
     ".join__carousel-container .join__slides-container "
@@ -11,9 +24,10 @@
   let currentSlide = 0;
   function renderSlides(slides) {
     slideContainer.innerHTML = slides[currentSlide];
-    if (window.innerWidth>767){
-      const secondSlide=currentSlide+1>=slides.length ? 0: currentSlide+1;
-      slideContainer.innerHTML+=slides[secondSlide];
+    if (window.innerWidth > 767) {
+      const secondSlide =
+        currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+      slideContainer.innerHTML += slides[secondSlide];
     }
   }
   function nextSlide() {
@@ -40,7 +54,7 @@
     ".join__carousel-container .join__slide-next-btn"
   );
   buttonNext.addEventListener("click", nextSlide);
-  window.addEventListener('resize', () => {
+  window.addEventListener("resize", () => {
     renderSlides(slides);
   });
 })();

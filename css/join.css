@@ -42,8 +42,6 @@
 }
 .join__basic-things-item::before {
   content: url(../img/join-lotus-flower.svg);
-  /* width: 10px;
-  height: 10px; */
   margin: 0 10px 0 0;
   vertical-align: middle;
 }
@@ -61,47 +59,45 @@
 .join__slide-prev-btn {
   border-style: none;
   border-radius: 50%;
-  background-color: var(--header-links-color);
+  background-color: var( --footer-background-color);
   width: 32px;
   height: 32px;
-  opacity: 0.7;
+  opacity: 0.99;
   position: absolute;
+  margin-right: 659px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotate(-45deg);
 }
-
 .join__slide-btn {
   border-top: 2px solid white;
   border-left: 2px solid white;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
+  border-radius: 20%;
 }
-
 .join__slides-container {
   display: flex;
-  max-height: 455px;
 }
 .join__slide-photo {
-  object-fit: cover;
-  /* object-position:center; */
   max-width: 615px;
   margin-left: 15px;
+  max-height: 688px;
 }
 .join__slide-next-btn {
   border-style: none;
   border-radius: 50%;
-  background-color: var(--header-links-color);
+  background-color: var( --footer-background-color);
   width: 32px;
   height: 32px;
-  opacity: 0.7;
+  opacity: 0.99;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotate(132deg);
-  margin-left: 200px;
+  margin-left: 689px;
 }
 @media (min-width: 768px){
   .join__carousel-container {
@@ -126,7 +122,5 @@
     margin: auto 120px;
     padding: 125px 0;
   }
-  .join__slide-photo{
-    max-height: 455px;
-  }
+
 }
