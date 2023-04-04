@@ -1,11 +1,10 @@
-<<<<<<< HEAD
+
 
 /* Maslova Iryna */
 .shedule-background {
     background-color: var(--pricing-background-color);
-  }
-  
-  .shedule-page {
+}
+.shedule-page {
     padding-top: 75px;
     padding-bottom: 85px;
     text-align: center;
@@ -77,9 +76,7 @@ td {
 @media screen and (min-width: 327px) {
   .table-container {
     width: 95%;
-
   }
-  
 }
 .events-schedule {
   text-align: center;
@@ -95,6 +92,3 @@ td {
 }
 
 /*Alena Maliushchenko*/
-=======
-@import "page-titles.css";
->>>>>>> 5d00205345525e3ac7c342e9935ed65c0fc30a62
