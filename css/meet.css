@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .meet__text-container {
@@ -28,7 +27,6 @@
     margin: 0 auto;
     padding: 50px;
     box-sizing: border-box;
-
 }
 
 .meet__title {
@@ -47,11 +45,9 @@
 
 .meet__second-text {
     margin-bottom: 30px;
-
 }
 
 @media (max-width:768px) {
-
     .meet {
         flex-direction: column;
         height: 100%;
