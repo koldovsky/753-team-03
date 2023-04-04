@@ -11,7 +11,7 @@
   let currentSlide = 0;
   function renderSlides(slides) {
     slideContainer.innerHTML = slides[currentSlide];
-    if (window.innerWidth>991){
+    if (window.innerWidth>767){
       const secondSlide=currentSlide+1>=slides.length ? 0: currentSlide+1;
       slideContainer.innerHTML+=slides[secondSlide];
     }
