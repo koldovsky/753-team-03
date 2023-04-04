@@ -1,34 +1,49 @@
 .teacher-training__container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-width: 375px;
-    margin-bottom: 20px;
-   
+    width: 100%;
+    margin: 0 auto;  
 }
-.teacher-training__article {
-    text-align: left;
+.image_teacher_training-container {
+    float: left;
+    width: 50%;
 }
-.teacher-training__text {
-    font-size: 18px;
-    margin: 20px 70px 40px 70px;
-}
-.image_teacher_training {
+.image_teacher_training img {
+    display: block;
     width: 100%;
     height: auto;
-    float: left;
-    margin-right: 20px;
 }
 .teacher-training__article {
-    flex-grow: 1;
+    margin-left: 50%; 
 }
-@media (min-width: 375px) {
-    .container {
-        flex-direction: column;
+.teacher-training__title {
+    margin: 30px 70px 20px 30px;
+}
+.teacher-training__subtitle {
+    margin-left: 30px;
+}
+.teacher-training__text{ 
+    margin: 20px 0px 0px 30px;
+    font-size: 18px;
+    line-height: 25,2px;
+    font-weight: 500;
+}
+.teacher-training__paragraph {
+    margin: 20px 0px 0px 30px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.teacher-training__main-text {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .teacher-training container {
+        flex-wrap: wrap;
     }
-    .image_teacher_training {
+    .image_teacher_training-container {
         float: none;
-        margin-bottom: 20px;
+        width: 100%;
+    }
+    .teacher-training__article {
+        margin-left: 0;
     }
 }
 .teacher-training-button {
@@ -46,6 +61,7 @@
     width: 180px;
     height: 52px;
     letter-spacing: 1.2px;
+    margin-left: 30px;
 }
 .teacher-training-button:hover {
     background-color: rgb(0, 0, 0);
