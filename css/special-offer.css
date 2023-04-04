@@ -1,9 +1,12 @@
+
 .parallax-content {
   background: url(../img/bacground-special-offer.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 76%;
   background-attachment: fixed;
+  z-index: -1; 
+  transform: translateZ(5);
 }
 
 .special-offer {
