@@ -1,15 +1,16 @@
 .teacher-training__container {
     width: 100%;
-    margin: 0 auto;  
 }
 .image_teacher_training-container {
     float: left;
     width: 50%;
+   
 }
 .image_teacher_training img {
     display: block;
     width: 100%;
     height: auto;
+    
 }
 .teacher-training__article {
     margin-left: 50%; 
