@@ -1,0 +1,40 @@
+.events-schedule {
+    text-align: center;
+    background-color: var(--events-background-color);
+}
+.events__title {
+    padding: 70px 70px 20px 70px;
+    color: var(--events-title-color);
+}
+.events__text {
+    font-size: 18px;
+    margin: 20px 70px 40px 70px;
+}
+.events-block {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-color);
+}
+.events__ashtanga-yoga,
+.events__lecture,
+.ents__basic-yoga,
+.vents__hatha-yoga {
+    box-shadow: -1px 0 10px;
+    height: 358S;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.events-block img {
+    width: 1328px;
+    height: auto;
+}    
+.events-location-yoga img,
+.events-location-yoga-online img,
+.events-user-yoga-lecture img,
+.events-user-yoga img,
+.events-location-yoga-lecture img,
+.events-user-yoga-online img {
+    width: 15px;
+    
+}

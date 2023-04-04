@@ -1,23 +1,20 @@
-.teacher-training__container {
-    width: 100%;
+.teacher-training {
+    display: flex;
+    flex-wrap: wrap;
 }
 .image_teacher_training-container {
-    float: left;
     width: 50%;
-   
-}
-.image_teacher_training img {
-    display: block;
-    width: 100%;
-    height: auto;
-    
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
 }
 .teacher-training__article {
-    margin-left: 50%; 
+    width: 50%;
     line-height: 25px;
+    box-sizing: border-box;
 }
 .teacher-training__title {
-    margin: 30px 70px 20px 30px;
+    margin: 20px 70px 20px 30px;
 }
 .teacher-training__subtitle {
     margin-left: 30px;
@@ -34,16 +31,13 @@
 .teacher-training__main-text {
     margin-bottom: 20px;
 }
-@media only screen and (max-width: 768px) {
-    .teacher-training container {
-        flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
     .image_teacher_training-container {
-        float: none;
         width: 100%;
+        height: auto;
     }
     .teacher-training__article {
-        margin-left: 0;
+        width: 100%;
     }
 }
 .teacher-training-button {

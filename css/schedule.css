@@ -1,4 +1,9 @@
-
+@import "common.css";
+@import "header.css";
+@import "controls.css";
+@import "footer.css";
+@import "training-schedule.css";
+@import "events-schedule.css";
 
 /* Maslova Iryna */
 .shedule-background {
@@ -35,60 +40,3 @@
   }  
   /* Maslova Iryna */
 
-/*Alena Maliushchenko*/  
-
-.training-schedule {
-  text-align: center;
-}
-.training-schedule__title {
-  margin: 70px 70px 20px 70px;
-}
-.training-schedule__text {
-  font-size: 18px;
-  margin: 20px 70px 40px 70px;
-}
-.training-schedule container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  min-width: 375px;
-  margin: auto;
-}
-li {
-  list-style-type: none;
-}
-.table-container {
-  max-height: 2546px;
-  overflow-y: auto;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-  font-size: 16px;
-}
-
-@media screen and (min-width: 327px) {
-  .table-container {
-    width: 95%;
-  }
-}
-.events-schedule {
-  text-align: center;
-
-}
-.events__title {
-  margin: 70px 70px 20px 70px;
-
-}
-.events__text {
-  font-size: 18px;
-  margin: 20px 70px 40px 70px;
-}
-
-/*Alena Maliushchenko*/
