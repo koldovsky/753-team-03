@@ -8,8 +8,8 @@
 .beauty-mind__banner-photo {
     display: flex;
     padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     object-fit: contain;
     object-position: 100% 50%;
 }
@@ -74,12 +74,14 @@
     font-size: 22px;
     line-height: 28.6px;
     text-align: center;
-    padding-bottom: 15px;
+    margin-top: 20px;
 }
 
 .info-section__borderline {
     display: flex;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .info-section__borderline-blue {
@@ -110,29 +112,6 @@
     text-align: center;
     display: block;
     word-wrap: break-word;
-    padding-top: 15px;
-}
-
-@media (min-width: 1280px) {
-    .beauty-mind__background {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-        align-items: center;
-    }
-}
-
-@media (min-width: 1450px) {
-    .beauty-mind__background {
-       margin-left: 150px;
-       margin-right: 150px;
-    }
-}
-
-@media (min-width: 768px) {
-    .beauty-mind__text-background{
-        padding-bottom: 80px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -142,41 +121,27 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-}
 
-@media (min-width: 1620px) {
-    .beauty-mind__background {
-        display: flex;
-        flex-direction: row;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: 216px;
-        margin-right: 216px;
-    }
-}
-
-@media (min-width: 768px) {
     .beauty-mind__text-background {
         display: flex;
         flex-direction: column;
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 50px;
+        padding-bottom: 100px;
         align-content: center;
     }
-}
 
-@media (min-width: 768px){
     .beauty-mind__banner-container {
         display: flex;
         align-content: center; 
+        width: 70%;
     }
-}
 
-@media (min-width: 768px) {
     .beauty-mind__title {
         font-size: 64px;
         line-height: 76.8px;
     }
+
 }
 
 @media (min-width: 992px) {
