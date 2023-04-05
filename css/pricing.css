@@ -4,7 +4,7 @@
 }
 @media (min-width: 1420px){
     .pricing{
-        height: 100vh;
+        height: 100%;
     }
 }
 .pricing_head{
