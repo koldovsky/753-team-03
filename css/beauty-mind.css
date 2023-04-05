@@ -30,6 +30,9 @@
 
 .beauty-mind__title {
     color: var(--dark-accent-color);
+    font-family: var(--subtitle-font);
+    letter-spacing: 0.6px;
+    font-weight: 400;
     font-size: 46px;
     line-height: 55.2px;
     padding-bottom: 30px;
@@ -71,9 +74,11 @@
 }
 
 .info-section__title {
-    font-weight: 400;
+    font-family: var(--subtitle-font);
+    color: var(--dark-accent-color);
     font-size: 22px;
     line-height: 28.6px;
+    font-weight: 400;
     text-align: center;
     margin-top: 20px;
 }
@@ -142,12 +147,15 @@
         line-height: 76.8px;
     }
 
+    .info-section__title {
+        font-size: 24px;
+    }
+
 }
 
-@media (min-width: 992px) {
-    .beauty-mind__title {
-        font-size: 72px;
-        line-height: 76.8px;
+@media (min-width: 1200px) {
+    .beauty-mind__banner-container {
+        padding-top: 50px;
     }
 }
 
