@@ -185,7 +185,6 @@
     .header__burger-menu {
         display: none;
     }
-}
 
     .header__link span{ 
         display: table-cell; 
@@ -214,3 +213,6 @@
         width: 100%; 
         left: 0; 
   }
+}
+
+
