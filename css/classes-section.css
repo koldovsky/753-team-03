@@ -47,7 +47,7 @@
     width: 90%;
     overflow: hidden;
     position: relative;
-    
+
 }
 
 .slider {
@@ -133,8 +133,7 @@
 }
 
 .classes__join-us {
-
-    padding: 80px;
+    padding: 43px;
     background-color: var(--classes-background-color);
 }
 
@@ -159,18 +158,21 @@
     margin: 20px;
 }
 
-.classes__join-us-subtitle {
+.classes__join-us-subtitle.subtitle {
     margin: 20px 0px 20px 0px;
+    font-size: 1.75rem;
 }
 
 .parallax-benefits {
-    display: grid;
-    padding: 60px 25px 600px 25px;
     background-image: url(../img/classes-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: var(--light-color);
+}
+
+.parallax-benefits .container {
+    display: grid;
+    padding: 60px 25px 600px 25px;
 }
 
 .parallax-benefits__main-text {
@@ -185,8 +187,16 @@
     font-size: 22px;
 }
 
+@media (min-width:992px) {
+    .classes__join-us {
+        padding: 80px;
+    }
+    .classes__join-us-subtitle.subtitle {
+        font-size: 2rem;
+    }
+}
 @media (min-width:768px) {
-    .parallax-benefits {
+    .parallax-benefits .container {
         grid-template-columns: 7fr 5fr;
     }
 
@@ -194,17 +204,25 @@
         grid-column: 2;
     }
 }
-
+@media only screen and (min-width:768px) and (max-width:991px){
+    .classes__join-us {
+        padding: 58px;
+    }
+    .classes__join-us-subtitle.subtitle {
+        font-size: 1.875rem;
+    }
+}
 @media (min-width:1199px) {
+
     .slider__btn-prev,
-  .slider__btn-next {
-    transform: translateY(-50%);
-    top: 50%;
-    background: none;
-  }
-  
+    .slider__btn-next {
+        transform: translateY(-50%);
+        top: 50%;
+        background: none;
+    }
+
     .slider__btn-next::before,
-    .slider__btn-prev::before{
+    .slider__btn-prev::before {
         width: 100%;
         height: 100%;
     }
