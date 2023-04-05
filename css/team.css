@@ -1,0 +1,133 @@
+.team {
+    padding: 120px 40px 120px 40px;
+    background-color: var(--join-background-color);
+    text-align: center;
+}
+.team__email-contact {
+    padding-top: 3.438rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.team__email-contact img {
+    width: 3.125rem;
+}
+.team__email-contact p {
+    padding-top: 1.25rem;
+    color: var(--dark-paragraph-color);
+}
+.team__email-contact a {
+    color: var(--join-title-color);
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.team__subtitle {
+    padding-top: 20px;
+    font-size: 2.375rem;
+}
+.team__title {
+    color: var(--join-title-color);
+}
+.team__main-text {
+    color: var(--dark-paragraph-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.575rem;
+    padding-top: 25px;
+}
+.img-doherty {
+    object-position: 100% 23.106%;
+}
+.img-adam {
+    object-position: 61.508% 81.553%;
+}
+.img-lillie {
+    object-position: 52.983% 20.865%;
+}
+.img-peter {
+    object-position: 47.469% 100%;
+}
+.img-helen {
+    object-position: 38.604% 100%;
+}
+.img-emily {
+    object-position: 58.172% 8.262%;
+}
+.team__slider {
+    padding-top: 50px;
+    text-align: left;
+}
+.team .slider__units-text.active {
+    padding-top: 20px;
+    line-height: 24px;
+    height: 216px;
+}
+.team .slider__units-text {
+   height: 0;
+   overflow: hidden;
+   transition: height 0.3s ease, padding-top 0.3s ease;
+}
+.team .slider__units-title {
+    color: var(--dark-paragraph-color);
+    font: 400 15px 'Marcellus', serif;
+    line-height: 27px;
+}
+.team .slider__img {
+    height: 80%;
+}
+.team .slider__container {
+    width: 100%;
+    position: relative;
+}
+.btn-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.slider__btn-prev {
+    left: 0;
+}
+.slider__btn-next {
+    right: 0;
+}
+.slider__accordion {
+    display: flex;
+    position: relative;
+}
+.accordion__icon{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+}
+.accordion__icon:hover::before ,
+.accordion__icon:hover::after {
+    background: var(--third-title-color);
+    transition: 0.5s;
+  }
+.accordion__icon::before, 
+.accordion__icon::after{
+    transition: height .3s ease;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    background: var(--header-links-color);
+}
+.accordion__icon::before {
+    width: 2px;
+    height: 100%;
+}
+.accordion__icon.active::before {
+    height: 0;
+}
+.accordion__icon::after {
+    width: 100%;
+    height: 2px;
+}

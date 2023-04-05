@@ -2,42 +2,52 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .image_teacher_training-container {
     width: 50%;
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    float: left;
 }
-.teacher-training__article {
+
+.teacher-training container {
     width: 50%;
     line-height: 25px;
     box-sizing: border-box;
 }
 .teacher-training__title {
-    margin: 20px 70px 20px 30px;
+    margin: 20px 20px 20px 30px;
 }
 .teacher-training__subtitle {
     margin-left: 30px;
 }
 .teacher-training__text{ 
-    margin: 20px 0px 0px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     font-weight: 500;
 }
 .teacher-training__paragraph {
-    margin: 20px 0px 0px 30px;
+    margin: 0px 0px 0px 30px;
     font-weight: 400;
 }
 .teacher-training__main-text {
     margin-bottom: 20px;
 }
-@media (max-width: 768px) {
-    .image_teacher_training-container {
-        width: 100%;
-        height: auto;
+@media (max-width: 767px) {
+    .teacher-training {
+        flex-direction: column;
     }
+    .image_teacher_training-container{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+
     .teacher-training__article {
-        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
     }
 }
 .teacher-training-button {
