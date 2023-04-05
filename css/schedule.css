@@ -1,10 +1,15 @@
+@import "common.css";
+@import "header.css";
+@import "controls.css";
+@import "footer.css";
+@import "training-schedule.css";
+@import "events-schedule.css";
 
 /* Maslova Iryna */
 .shedule-background {
     background-color: var(--pricing-background-color);
-  }
-  
-  .shedule-page {
+}
+.shedule-page {
     padding-top: 75px;
     padding-bottom: 85px;
     text-align: center;
@@ -34,3 +39,4 @@
     text-decoration: underline;
   }  
   /* Maslova Iryna */
+

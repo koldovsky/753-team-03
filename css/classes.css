@@ -1,29 +1,7 @@
+@import "page-titles.css";
+@import "yoga-styles.css";
+@import "header.css";
 
-/* Maslova Iryna */
 .classes-background {
     background-color: var(--classes-background-color);
   }
-  
-  .classes-page {
-    padding-top: 75px;
-    padding-bottom: 85px;
-    text-align: center;
-    position: relative;
-  }
-  
-  .classes-title {
-    font-family: var(--subtitle-font);
-    font-size: 1.875rem;
-    font-weight: 400;
-    color: var(--subtitle-color);
-    margin-bottom: 25px;
-  }
-  
-  .navigation-classes__home {
-    color: var(--home-link-color);
-    text-decoration: none;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 2.2px;
-  }
-  /* Maslova Iryna */

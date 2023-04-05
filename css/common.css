@@ -38,6 +38,8 @@
     --header-links-color: rgba(47, 53, 71, 0.7);
     --home-link-color: rgba(114,118,130,0.69);
     --dark-paragraph-color: rgba(114,118,130);
+    --events-background-color: rgb(252, 238, 221);
+    --events-title-color: rgb(227, 195, 156);
     font-family: var(--main-font);
     color: var(--paragraph-color);
 }

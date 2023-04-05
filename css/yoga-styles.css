@@ -1,0 +1,121 @@
+.styles {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--contacts-background-color);
+}
+
+.styles__section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 45px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.styles__header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: calc(30/2);
+    padding-right: calc(30/2);
+}
+
+.styles__subtitle {
+    margin-top: 20px;
+}
+
+.styles__subtext {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.styles__blocks {
+    margin-top: 45px;
+}
+
+.styles__block {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.styles__block-info {
+    padding: 39px 43px;
+    position: relative;
+    background-color: var(--light-color);
+}
+
+.styles__button {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.styles__instructors {
+    color: var(--general-title-color);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    overflow-wrap: break-word;
+}
+
+.styles__title {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.styles__borderline {
+    display: flex;
+    justify-content: left;
+    padding: 15px 0px;
+}
+
+.styles__borderline-blue {
+    background-color: var(--borderline-blue-color);
+    height: 3px;
+    width: 39px;
+    display: flex;
+}
+
+.styles__text {
+  line-height: 24px;
+  overflow-wrap: break-word;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.styles__block-photo {
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (min-width: 768px) {
+  .styles__block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .styles__block--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .styles__block-photo,
+  .styles__block-info {
+    width: 50%;
+    max-width: 516px;
+  }
+
+  .styles__block-info {
+    padding: 46px 52px;
+  }
+}
+
+@media (min-width: 992px) {
+    .styles__block-info {
+        padding: 60px 70px;
+      }  
+}
