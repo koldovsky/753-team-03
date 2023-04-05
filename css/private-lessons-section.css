@@ -1,0 +1,44 @@
+.private-lessons {
+    background-image: url(../img/private-lessons-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 90%;
+}
+.private-lessons__container {
+    padding: 125px 0;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.private-lessons__text-container {
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+    line-height: 1.5;
+}
+@media (min-width: 768px){
+    .private-lessons__text-container {
+        max-width: 470px;
+    }
+}
+@media (max-width: 767px){
+    .private-lessons__text-container {
+        margin: 40px;
+        max-width: 719px;
+    }
+}
+.private-lessons__about-instructors {
+    
+}
+.private-lessons__subtitle {
+    margin-top: 20px;
+}
+.private-lessons__paragraph {
+    margin-top: 25px;
+}
+.private-lessons__button {
+    margin-top: 40px;
+}
+.button-with-background {
+}

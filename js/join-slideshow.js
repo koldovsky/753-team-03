@@ -4,20 +4,7 @@
     '<div class="join__slide-photo"><img src="img/join-slideshow-photo2-copy.jpg" alt="Yoga"></div>',
     '<div class="join__slide-photo"><img src="img/join-slideshow-photo3-copy.jpg" alt="Yoga"></div>',
   ];
-  const photoContainer = document.querySelector(".join__slides-container");
-  const photos = photoContainer.querySelectorAll(".join__slide-photo");
-
-  let maxHeight = 0;
-  photos.forEach((photo) => {
-    if (photo.height > maxHeight) {
-      maxHeight = photo.height;
-    }
-  });
-  photos.forEach(photo => {
-    photo.style.height = `${maxHeight}px`;
-  });
-
-  const carousel = document.querySelector(".join__carousel-container");
+    const carousel = document.querySelector(".join__carousel-container");
   const slideContainer = carousel.querySelector(
     ".join__carousel-container .join__slides-container "
   );
