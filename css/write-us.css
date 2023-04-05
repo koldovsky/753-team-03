@@ -82,6 +82,12 @@
     padding: 18px 35px;
     margin-top: 35px;
     background-color: var(--light-color);
+    transition: all 0.5s ease;
+}
+
+.data-form__button:hover {
+    background-color: var(--dark-background-color);
+    color: var(--light-color);
 }
 
 @media(min-width: 768px) {
