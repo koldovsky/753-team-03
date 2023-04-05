@@ -1,15 +1,15 @@
-.page-titles-background {
+.page-titles {
     background-color: var(--pricing-background-color);
   }
   
-  .page-titles-page {
+  .page-titles__page {
     padding-top: 75px;
     padding-bottom: 85px;
     text-align: center;
     position: relative;
   }
   
-  .page-titles-title {
+  .page-titles__title {
     margin-bottom: 25px;
   }
   
@@ -26,4 +26,8 @@
     font-weight: 700;
     letter-spacing: 2.2px;
     text-decoration: underline;
+  }
+
+  .classes-background {
+    background-color: var(--classes-background-color);
   }

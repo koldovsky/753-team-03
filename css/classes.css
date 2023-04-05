@@ -2,6 +2,3 @@
 @import "yoga-styles.css";
 @import "header.css";
 
-.classes-background {
-    background-color: var(--classes-background-color);
-  }
