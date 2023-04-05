@@ -1,20 +1,16 @@
 .teacher-training {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .image_teacher_training-container {
-    width: 50%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    float: left;
+    max-width: 100%;
+    height: auto;
 }
-
 .teacher-training container {
-    width: 50%;
-    line-height: 25px;
-    box-sizing: border-box;
+    flex: 1;
+    margin-left: 20px;
 }
 .teacher-training__title {
     margin: 20px 20px 20px 30px;
