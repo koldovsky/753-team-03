@@ -125,59 +125,92 @@
         <div class="slider__container">
           <div class="slider__track">
             <div class="slider__units">
-              <img src="img/ann-doherty.png" alt="Ann Doherty" />
-              <h3 class="slider__units-subtitle subtitle">Ann Doherty</h3>
-              <p class="slider__units-title">Instructor: Vinyasa, Yin</p>
+              <img class="slider__img img-doherty" src="img/ann-doherty.png" alt="Ann Doherty" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text">
+                <h3 class="slider__units-subtitle subtitle">Ann Doherty</h3>
+                <p class="slider__units-title">Instructor: Vinyasa, Yin</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">Ann&apos;s life has changed from the first time she stepped on a yoga mat.
                 Now she is a senior yoga instructor with 20 years of experience. She strives to make yoga available to
                 people of all fitness levels.</p>
             </div>
             <div class="slider__units">
-              <img src="img/adam-thorn.png" alt="Adam Thorn" />
-              <h3 class="slider__units-subtitle subtitle">Adam Thorn</h3>
-              <p class="slider__units-title">Studio Owner</p>
+              <img class="slider__img img-adam" src="img/adam-thorn.png" alt="Adam Thorn" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text"></p>
+                <h3 class="slider__units-subtitle subtitle">Adam Thorn</h3>
+                <p class="slider__units-title">Studio Owner</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">Opening, practicing, and teaching at ATTA has extremely improved my life
                 experience. I highly appreciate every day that I can spend with our friendly community of respectful
                 students and professional teachers.</p>
             </div>
             <div class="slider__units">
-              <img src="img/lillie-fleming.png" alt="Lillie Fleming" />
-              <h3 class="slider__units-subtitle subtitle">Lillie Fleming</h3>
-              <p class="slider__units-title">Instructor: Vinyasa, Yin</p>
+              <img class="slider__img img-lillie" src="img/lillie-fleming.png" alt="Lillie Fleming" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text">
+                <h3 class="slider__units-subtitle subtitle">Lillie Fleming</h3>
+                <p class="slider__units-title">Instructor: Vinyasa, Yin</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">Lillie is the soul of our team. Her basic yoga classes are focused on moving
                 with the right breath. The breath is the basis. She is a very confident teacher and her smile is
                 infectious. She is committed to helping people find their mind and body balance.</p>
             </div>
             <div class="slider__units">
-              <img src="img/peter-alvarado.png" alt="Peter Alvarado" />
-              <h3 class="slider__units-subtitle subtitle">Peter Alvarado</h3>
-              <p class="slider__units-title">Instructor: Ashtanga Led</p>
+              <img class="slider__img img-peter" src="img/peter-alvarado.png" alt="Peter Alvarado" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text">
+                <h3 class="slider__units-subtitle subtitle">Peter Alvarado</h3>
+                <p class="slider__units-title">Instructor: Ashtanga Led</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">Peter started his yoga practice at an early age. His older sister was his
                 first teacher. They practiced Meditation yoga from books they could ever find. Today Peter is recognized
                 as one of the world's leading yoga practitioners and instructors.</p>
             </div>
             <div class="slider__units">
-              <img src="img/helen-thorn.png" alt="Helen Thorn" />
-              <h3 class="slider__units-subtitle subtitle">Helen Thorn</h3>
-              <p class="slider__units-title">Instructor: Yoga Basics</p>
+              <img class="slider__img img-helen" src="img/helen-thorn.png" alt="Helen Thorn" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text">
+                <h3 class="slider__units-subtitle subtitle">Helen Thorn</h3>
+                <p class="slider__units-title">Instructor: Yoga Basics</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">I have been professionally practicing yoga since 2003. I've opened Yogamaya
                 to care for and share what I love &ndash; Kirtan, Asana, Bhakti. My teaching is fun, enthusiastic, and
                 stimulative. I can help find the balance of your mind and body.
               </p>
             </div>
             <div class="slider__units">
-              <img src="img/emily-stone.png" alt="Emily Stone" />
-              <h3 class="slider__units-subtitle subtitle">Emily Stone</h3>
-              <p class="slider__units-title">Instructor: Yoga Basics, Prenatal</p>
+              <img class="slider__img img-emily" src="img/emily-stone.png" alt="Emily Stone" />
+              <div class="slider__accordion accordion">
+                <div class="accordion__main-text">
+                <h3 class="slider__units-subtitle subtitle">Emily Stone</h3>
+                <p class="slider__units-title">Instructor: Yoga Basics, Prenatal</p>
+                </div>
+                <div class="accordion__icon"></div>
+              </div>
               <p class="slider__units-text">Emily is a certified yoga teacher, with expertise in teaching students of
                 all ages. Emily makes learning yoga basics fun but overwhelm-free.</p>
             </div>
           </div>
+          <button type="button" class="slider__btn-prev btn-arrow"></button>
+          <button type="button" class="slider__btn-next btn-arrow"></button>
         </div>
       </div>
       <div class="team__email-contact">
         <img src="img/team-contact-logo.svg" alt="Team Logo" />
-        <p>Find a trainer that's perfect for you and write at <a href="mailto:atta@email.com">atta@email.com</a></p>
+        <p>Find a trainer that's perfect for you and <br /> write at <a href="mailto:atta@email.com">atta@email.com</a>
+        </p>
       </div>
     </section>
     <!--/Korogodova Vladislava-->
@@ -325,8 +358,9 @@
       <div class="footer__commercial">© Created by | All rights Reserved</div>
     </nav>
   </footer>
-  <script src="js/testimonials-slider.js"></script>
   <script src="js/burger-menu.js"></script>
+  <script src="js/team-slider.js"></script>
+  <script src="js/testimonials-slider.js"></script>
 </body>
 
 </html>

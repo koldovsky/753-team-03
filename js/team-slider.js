@@ -5,17 +5,16 @@
     const btnPrev = document.querySelector('.slider__btn-prev');
     const btnNext = document.querySelector('.slider__btn-next');
     const units = document.querySelectorAll('.slider__units');
-    const imageClasses = document.querySelectorAll('.classes .slider__img');
+    const imageTeam = document.querySelectorAll('.team .slider__img');
     const unitWidth = 100 / slidesToShow;
     const setSlideDimensions = () => {
         units.forEach((unit) => {
           unit.style.width = `${unitWidth}%`;
         });
         const unitWidthNow = units[0].offsetWidth;
-        imageClasses.forEach((imageClasses) => {
-          imageClasses.style.height = `${unitWidthNow}px`;
+        imageTeam.forEach((imageTeam) => {
+          imageTeam.style.height = `${unitWidthNow * 1.2}px`;
         });
-        
       };
     
       setSlideDimensions();
@@ -25,7 +24,7 @@
       });
 
     track.style.transform = `translate3d(${unitWidth * -1}%, 0, 0)`;
-
+  
     btnPrev.addEventListener('click', () => {
         track.classList.remove('active');
         const units = document.querySelectorAll('.slider__units');
@@ -51,4 +50,17 @@
             track.style.transform = `translate3d(${unitWidth * -1}%, 0, 0)`;
         }, 100);
     });
+
+    // Accordion
+    container.addEventListener('click', (event) => {
+        if (event.target.classList.contains('accordion__icon')) {
+            if (!event.target.classList.contains('active')) {
+                event.target.classList.add('active');
+                event.target.parentNode.parentNode.querySelector('.slider__units-text').classList.add('active');
+            } else {
+                event.target.classList.remove('active');
+                event.target.parentNode.parentNode.querySelector('.slider__units-text').classList.remove('active');
+            }
+        }
+    })
 })();
