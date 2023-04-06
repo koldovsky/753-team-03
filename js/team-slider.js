@@ -1,30 +1,38 @@
 (function () {
-    const slidesToShow = 4;
+    let slidesToShow;
     const container = document.querySelector('.slider__container');
     const track = document.querySelector('.slider__track');
     const btnPrev = document.querySelector('.slider__btn-prev');
     const btnNext = document.querySelector('.slider__btn-next');
-    const units = document.querySelectorAll('.slider__units');
-    const imageTeam = document.querySelectorAll('.team .slider__img');
-    const unitWidth = 100 / slidesToShow;
-    const setSlideDimensions = () => {
-        units.forEach((unit) => {
-          unit.style.width = `${unitWidth}%`;
-        });
-        const unitWidthNow = units[0].offsetWidth;
-        imageTeam.forEach((imageTeam) => {
-          imageTeam.style.height = `${unitWidthNow * 1.2}px`;
-        });
-      };
-    
-      setSlideDimensions();
-    
-      window.addEventListener('resize', () => {
-        setSlideDimensions();
-      });
+    let unitWidth;
 
-    track.style.transform = `translate3d(${unitWidth * -1}%, 0, 0)`;
-  
+    const setSlideDimensions = () => {
+        const units = document.querySelectorAll('.slider__units');
+        const imageTeam = document.querySelectorAll('.team .slider__img');
+        if (window.innerWidth >= 992) {
+            slidesToShow = 4;
+        } else if (window.innerWidth >= 768) {
+            slidesToShow = 2;
+        } else {
+            slidesToShow = 1;
+        }
+        unitWidth = 100 / slidesToShow;
+        units.forEach((unit) => {
+            unit.style.width = `${unitWidth}%`;
+        });
+        const unitWidthNow = container.clientWidth * unitWidth / 100;;
+        imageTeam.forEach((imageTeam) => {
+            imageTeam.style.height = `${unitWidthNow * 1.2}px`;
+        });
+        track.style.transform = `translate3d(${unitWidth * -1}%, 0, 0)`;
+    };
+
+    setSlideDimensions();
+
+    window.addEventListener('resize', () => {
+        setSlideDimensions();
+    });
+
     btnPrev.addEventListener('click', () => {
         track.classList.remove('active');
         const units = document.querySelectorAll('.slider__units');
@@ -51,7 +59,6 @@
         }, 100);
     });
 
-    // Accordion
     container.addEventListener('click', (event) => {
         if (event.target.classList.contains('accordion__icon')) {
             if (!event.target.classList.contains('active')) {

@@ -1,5 +1,9 @@
+@import "common.css";
+@import "header.css";
+@import "controls.css";
 @import "page-titles.css";
 @import "yoga-styles.css";
-@import "header.css";
 @import "private-lessons-section.css";
+@import "footer.css";
+
 

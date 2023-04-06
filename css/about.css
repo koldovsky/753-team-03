@@ -1,6 +1,10 @@
+@import "common.css";
+@import "header.css";
 @import "about-page.css";
+@import "team.css";
+@import "classes-section.css";
+@import "meet.css";
 @import "testimonials.css";
 @import "write-us.css";
-@import "team.css";
 @import "page-titles.css";
-@import "header.css";
+@import "footer.css";
