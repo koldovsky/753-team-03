@@ -20,17 +20,17 @@
 @media (min-width: 768px){
     .private-lessons__text-container {
         max-width: 470px;
+        margin-left: 40px;
     }
 }
 @media (max-width: 767px){
     .private-lessons__text-container {
         margin: 40px;
+        margin-left: 40px;
         max-width: 719px;
     }
 }
-.private-lessons__about-instructors {
-    
-}
+
 .private-lessons__subtitle {
     margin-top: 20px;
 }
@@ -39,6 +39,4 @@
 }
 .private-lessons__button {
     margin-top: 40px;
-}
-.button-with-background {
 }

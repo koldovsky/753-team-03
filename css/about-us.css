@@ -3,11 +3,12 @@
 }
 .about-us__title{
     min-width: 73px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .about-us__subtitle-container{
     max-width: 600px;
     margin-right:15px;
+    margin-top: 10px;
 }
 .about-us__subtitle{
     font-size: 38px;

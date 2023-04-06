@@ -1,8 +1,8 @@
 (function () {
   const slides = [
-    '<div class="join__slide-photo"><img src="img/join-slideshow-photo1.png" alt="Yoga"></div>',
-    '<div class="join__slide-photo"><img src="img/join-slideshow-photo2-copy.jpg" alt="Yoga"></div>',
-    '<div class="join__slide-photo"><img src="img/join-slideshow-photo3-copy.jpg" alt="Yoga"></div>',
+    '<div class="join__slide-photo-container"><img src="img/join-slideshow-photo1.png" alt="Yoga"></div>',
+    '<div class="join__slide-photo-container"><img src="img/join-slideshow-photo2-copy.jpg" alt="Yoga"></div>',
+    '<div class="join__slide-photo-container"><img src="img/join-slideshow-photo3-copy.jpg" alt="Yoga"></div>',
   ];
     const carousel = document.querySelector(".join__carousel-container");
   const slideContainer = carousel.querySelector(
@@ -33,13 +33,10 @@
   }
 
   renderSlides(slides);
-  const buttonPrev = document.querySelector(
-    ".join__carousel-container .join__slide-prev-btn"
-  );
+  const buttonPrev = document.querySelector(".join__carousel-container .join__slide-prev-btn");
   buttonPrev.addEventListener("click", prevSlide);
-  const buttonNext = document.querySelector(
-    ".join__carousel-container .join__slide-next-btn"
-  );
+
+  const buttonNext = document.querySelector(".join__carousel-container .join__slide-next-btn");
   buttonNext.addEventListener("click", nextSlide);
   window.addEventListener("resize", () => {
     renderSlides(slides);
