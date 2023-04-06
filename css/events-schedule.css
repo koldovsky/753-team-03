@@ -1,0 +1,109 @@
+.events-wrapper {
+    background-color: var(--events-background-color);
+    width: 100%;
+}
+.events-schedule {
+    text-align: center;
+    max-width: 100%;
+}
+.events__title {
+    padding: 70px 70px 20px 70px;
+    color: var(--events-title-color);
+}
+.events__text {
+    font-size: 18px;
+    margin: 20px 70px 40px 70px;
+    font-weight: 500;
+}
+.events-block {
+    display: inline-block;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+.events-blocks .block1,
+.events-blocks .block2,
+.events-blocks .block3,
+.events-blocks .block4 {
+    display: inline-block;
+    width: 420px;
+    background-color: var(--light-color); 
+    margin: 20px 30px 40px 60px;
+    
+}
+p {
+    font-size: 16px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    margin: 10px;
+}
+.events-blocks img {
+    width: 100%;
+    height: 250px;
+    
+}
+.events-location-yoga,
+.events-location-yoga-online,
+.events-location-yoga-lecture {
+    display: flex;
+    margin: 10px 0;
+}
+.events-location-yoga img,
+.events-location-yoga-online img,
+.events-location-yoga-lecture img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.events-user-yoga,
+.events-user-yoga-online,
+.events-user-yoga-lecture {
+    display: flex;
+    margin: 10px 0;
+   
+}
+.events-user-yoga img,
+.events-user-yoga-online img,
+.events-user-yoga-lecture img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.event-name{
+    font-size: 30px;
+    font-family: var(--subtitle-font);
+    text-align: left;
+    color: var(--subtitle-color);
+}
+.event-date {
+    font-size: 11px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    text-align: left;
+    color: var(--general-title-color);
+
+}
+@media (min-width: 370px) {
+
+    .events-blocks .block1,
+    .events-blocks .block2,
+    .events-blocks .block3,
+    .events-blocks .block4 {
+        height: 100%;
+        width: 40%;
+
+
+    }
+}
+@media (max-width: 768px) {
+    .events-blocks .block1,
+    .events-blocks .block2,
+    .events-blocks .block3,
+    .events-blocks .block4 {
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+   
+}

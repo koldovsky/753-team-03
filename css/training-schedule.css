@@ -1,5 +1,6 @@
 .training-schedule {
     text-align: center;
+    margin-bottom: 80px;
 }
 .training-schedule__title {
     margin: 70px 70px 20px 70px;
@@ -9,26 +10,55 @@
     font-weight: 500;
     margin: 20px 70px 40px 70px;
 }
+.training-schedule table {
+    width: 95%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,2);
+    border-collapse: collapse;
+    margin: 15px;
+}
+.training-schedule table th, .training-schedule table td {
+    padding: 10px;
+    
+}
 li {
     list-style-type: none;
 }
-
-
-table {
-    border-collapse: collapse;
-    width: 100%;
+.training-schedule table th {
+    background-color: rgb(239, 239, 249);
+    font-size: 11px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    color: var(--general-title-color);
 }
-
-table th,
-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-    font-size: 16px;
+.day {
+    font-size: 23px;
+    font-family: var(--subtitle-font);
+    color: var(--subtitle-color);
 }
-
-@media screen and (min-width: 327px) {
-    .table-container {
-        width: 95%;
+.training-schedule table tr:hover {
+    background-color: rgb(239, 239, 249);
+}
+.training-schedule table td, .training-schedule table th {
+    border: 1px solid #ccc;
+}
+@media (max-width: 768px) {
+    .training-schedule table {
+        overflow-x: auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 2);
+        max-width: 95%;
+        margin: 5px;
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+    .training-schedule table td:nth-of-type(2) {
+        width: 20%;
+    }
+    .day {
+        font-size: 14px;
+    }
+    .time {
+        font-size: 10px;
     }
 }
+
+    

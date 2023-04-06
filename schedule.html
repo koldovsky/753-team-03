@@ -29,11 +29,11 @@
         <a href="./index.html#pricing" class="header__link">Pricing</a>
         <a href="./schedule.html" class="header__link">Schedule</a>
         <a href="./contacts.html" class="header__link">Contacts</a>
-      </nav> 
-        <a href="tel:+1(234)5678900" class="phone__number"> +1 (234) 567 89 00</a>
-      </div>
+    </nav> 
+      <a href="tel:+1(234)5678900" class="phone__number"> +1 (234) 567 89 00</a>
     </div>
   </div>
+  
     </header>
     <main>
       <div class="page-titles">
@@ -45,8 +45,8 @@
           </div>
         </section>
       </div>
-      <div class="training-schedule">
-        <section class="training-schedule container">
+      <section class="training-schedule container">
+        <div class="training-schedule">
           <h2 class="training-schedule__title">SCHEDULE</h2>
           <p class="training-schedule__subtitle subtitle">
             Large Selection of Visit Dates
@@ -54,8 +54,8 @@
           <p class="training-schedule__text">
             Find your perfect time and class at the Atta Yoga studio.
           </p>
-        </section>
-        <section class="table-container">
+        </div>
+        <div class="training-schedule table">
           <table>
             <thead>
               <tr>
@@ -75,7 +75,7 @@
                     <li>9 : 45 pm - 10 : 40 pm</li>
                   </ul>
                 </td>
-                <td class="class-of-yoga">  
+                <td class="workout">  
                   <ul>
                     <li>Yoga Basics</li>
                     <li>Ashtanga Yoga</li>
@@ -91,7 +91,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Tuesday</td>
+                <td class="day">Tuesday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
@@ -99,7 +99,7 @@
                     <li>9 : 00 pm - 10 : 00 pm</li>
                   </ul>
                 </td>
-                <td class="type-of-yoga">
+                <td class="workout">
                   <ul>
                     <li>Prenatal Yoga</li>
                     <li>Meditation</li>
@@ -115,7 +115,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Wednesday</td>
+                <td class="day" >Wednesday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
@@ -123,14 +123,14 @@
                     <li>9 : 30 pm - 10 : 30 pm</li>
                   </ul>
                 </td>
-                <td>
+                <td class="workout"> 
                   <ul>
                     <li>Hatha Yoga</li>
                     <li>Yoga Basics</li>
                     <li>Vinyasa Yoga</li>
                   </ul>
                 </td>
-                <td  class="coach's-name">
+                <td class="coach's-name">
                   <ul>
                     <li>Ann Doherty</li>
                     <li>Emily Stone</li>
@@ -139,14 +139,14 @@
                 </td>
               </tr>
               <tr>
-                <td>Thursday</td>
+                <td class="day">Thursday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
                     <li>7 : 45 pm - 8 : 45 pm</li>
                   </ul>
                 </td>
-                <td class="type-of-yoga">
+                <td class="workout">
                   <ul>
                     <li>Yin Yoga</li>
                     <li>Vinyasa Yoga</li>
@@ -160,7 +160,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Friday</td>
+                <td class="day">Friday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
@@ -168,7 +168,7 @@
                     <li>9 : 00 pm - 10 : 00 pm</li>
                   </ul>
                 </td>
-                <td class="type-of-yoga">
+                <td class="workout">
                   <ul>
                     <li>Meditation</li>
                     <li>Yoga Basics</li>
@@ -184,7 +184,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Saturday</td>
+                <td class="day">Saturday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
@@ -192,7 +192,7 @@
                     <li>9 : 00 pm - 10 : 00 pm</li>
                   </ul>
                 </td>
-                <td class="type-of-yoga">
+                <td class="workout">
                   <ul>
                     <li>Meditation</li>
                     <li>Yoga Basics</li>
@@ -208,18 +208,18 @@
                 </td>
               </tr>
               <tr>
-                <td>Sunday</td>
+                <td class="day">Sunday</td>
                 <td class="time">
                   <ul>
                     <li>6 : 30 pm - 7 : 30 pm</li>
                   </ul>
                 </td>
-                <td class="type-of-yoga">
+                <td class="coach's-name">
                   <ul>
                     <li>Meditation</li>
                   </ul>
                 </td>
-                <td class="coach's-name">
+                <td class="workout">
                   <ul>
                     <li>Peter Alvarado</li>
                   </ul>
@@ -227,32 +227,34 @@
               </tr>
             </tbody>
           </table>
-        </section>      
-      </div>  
-      <section class="events-schedule">
-        <div class="events-schedule container">
+        </div>      
+      </section>  
+      <section class="events-wrapper container">
+        <div class="events-schedule">
           <h2 class="events__title">EVENTS</h2>
           <p class="events__subtitle subtitle">Our Latest Events & Retreats</p>
           <p class="events__text">Join us on our special events!</p>
         </div>
         <div class="events-blocks" >
           <div class="block1">
-            <p>Ashtanga Yoga Practice & Philosophy</p>
-            <p>SEPTEMBER 20, 2022</p>
-            <img src="img/events-ashtanga-yoga.png" alt="Ashtanga Yoga Practice & Philosophy"/>
+            <img src="img/events-ashtanga-yoga.png" alt="Ashtanga Yoga Practice & Philosophy" />
+            <p class="event-date">SEPTEMBER 20, 2022</p>
+            <p class="event-name">Ashtanga Yoga Practice & Philosophy</p>
+            
             <div class="events-location-yoga">
-                <img src="img/icon-location-yoga.png" alt="Location-yoga"/>
-                <p>108 Vada Estates, NY</p>
+              <img src="img/icon-location-yoga.png" alt="Location-yoga"/>
+              <p>108 Vada Estates, NY</p>
             </div>
             <div class="events-user-yoga">
-                  <img src="img/icon-user-yoga.png" alt="User-yoga" />
-                  <p>Peter Alvarado</p>
+              <img src="img/icon-user-yoga.png" alt="User-yoga" />
+              <p>Peter Alvarado</p>
             </div>
           </div>
           <div class="block2">
-            <p>Lecture: the Best Scents for Meditation</p>
-            <p>NOVEMBER 02, 2022</p>
-            <img src="img/events-lecture.png" alt="Lecture: the Best Scents for Meditation"/>
+            <img src="img/events-lecture.png" alt="Lecture: the Best Scents for Meditation" />
+            <p class="event-date">NOVEMBER 02, 2022</p>
+            <p class="event-name">Lecture: the Best Scents for Meditation</p>
+            
             <div class="events-location-yoga-lecture">
               <img src="img/icon-location-yoga-lecture.png" alt="Location-yoga-online-lecture"/>
               <p>8108 Vada Estates, NY</p>
@@ -263,10 +265,10 @@
             </div>
           </div>
           <div class="block3">
-            <p>Basic Yoga Poses for Beginners</p>
-            <p>DECEMBER 12, 2022</p>
-            <img src="img/events-basic-yoga.png" alt="Basic Yoga Poses for Beginners"/>
-            <p>Basic Yoga Poses for Beginners</p>
+            <img src="img/events-basic-yoga.png" alt="Basic Yoga Poses for Beginners" />
+            <p class="event-date">DECEMBER 12, 2022</p>
+            <p class="event-name">Basic Yoga Poses for Beginners</p>
+            
             <div class="events-location-yoga-online">
               <img src="img/icon-location-yoga-online.png" alt="Location-yoga-online"/>
               <p>Online</p>
@@ -277,19 +279,20 @@
             </div>
           </div>
           <div class="block4">
-            <p>Hatha Yoga Retreat in Mexico</p>
-              <p>FEBRUARY 04, 2023</p>
-              <img src="img/events-hatha-yoga.png" alt="Hatha Yoga Retreat in Mexico" />
-              <div class="card-info-yoga">
-                <div class="events-location-yoga">
-                  <img src="img/icon-location-yoga.png" alt="Location-yoga" />
-                  <p>Tulum, Mexico</p>
-                </div>
-                <div class="events-user-yoga">
-                  <img src="img/icon-user-yoga.png" alt="User-yoga" />
-                  <p>Ann Doherty</p>
-                </div>
+            <img src="img/events-hatha-yoga.png" alt="Hatha Yoga Retreat in Mexico" />
+            <p class="event-date">FEBRUARY 04, 2023</p>
+            <p class="event-name">Hatha Yoga Retreat in Mexico</p>
+            
+            <div class="card-info-yoga">
+              <div class="events-location-yoga">
+                <img src="img/icon-location-yoga.png" alt="Location-yoga" />
+                <p>Tulum, Mexico</p>
               </div>
+              <div class="events-user-yoga">
+                <img src="img/icon-user-yoga.png" alt="User-yoga" />
+                <p>Ann Doherty</p>
+              </div>
+            </div>
           </div>
         </div>  
       </section>
