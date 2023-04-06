@@ -12,7 +12,6 @@
 }
 .training-schedule table {
     width: 95%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,2);
     border-collapse: collapse;
     margin: 15px;
 }
@@ -44,7 +43,6 @@ li {
 @media (max-width: 768px) {
     .training-schedule table {
         overflow-x: auto;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 2);
         max-width: 95%;
         margin: 5px;
         font-size: 12px;
